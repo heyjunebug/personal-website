@@ -15,7 +15,24 @@ module.exports = function(eleventyConfig) {
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
-		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
+		"./books/img/": "/img/",
+		"./node_modules/prism-themes/themes/prism-dracula.css": "/css/prism-dracula.css"
+	});
+
+	// Returns portfolio items
+	eleventyConfig.addCollection('portfolio', collection => {
+		return collection.getFilteredByGlob('content/portfolio/*.md');
+	});
+
+	// Returns book reviews
+	eleventyConfig.addCollection('books', collection => {
+		return collection.getFilteredByGlob('content/books/*.md');
+	});
+
+	eleventyConfig.addCollection("drafts", function (collectionApi) {
+		return collectionApi
+			.getAll()
+			.filter(item => item.data.draft)
 	});
 
 	// Run Eleventy when these files change:
@@ -36,6 +53,13 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+
+	// Front matter parsing option for excerpt creation
+	eleventyConfig.setFrontMatterParsingOptions({
+		excerpt: true,
+		excerpt_separator: "<!-- excerpt -->",
+		excerpt_alias: "excerpt"
+	});
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -78,6 +102,31 @@ module.exports = function(eleventyConfig) {
 		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
 	});
 
+	// Add nbsp between the last two words of some text
+	eleventyConfig.addFilter("addNbsp", (str) => {
+		if (!str) {
+			return;
+		}
+		let title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
+		title = title.replace(/"(.*)"/g, '\\"$1\\"');
+		return title;
+	});
+
+	// set markdown footnote processor
+  let markdownIt = require("markdown-it");
+  let markdownItFootnote = require("markdown-it-footnote");
+  
+  let options = {
+    html: true, // Enable HTML tags in source
+    breaks: true,  // Convert '\n' in paragraphs into <br>
+    linkify: true // Autoconvert URL-like text to links
+  };
+  
+  // configure the library with options
+  let markdownLib =  markdownIt(options).use(markdownItFootnote);
+  // set the library to process markdown files
+  eleventyConfig.setLibrary("md", markdownLib);
+
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
@@ -107,7 +156,6 @@ module.exports = function(eleventyConfig) {
 			"md",
 			"njk",
 			"html",
-			"liquid",
 		],
 
 		// Pre-process *.md files with: (default: `liquid`)
@@ -115,6 +163,8 @@ module.exports = function(eleventyConfig) {
 
 		// Pre-process *.html files with: (default: `liquid`)
 		htmlTemplateEngine: "njk",
+
+		dataTemplateEngine: "njk",
 
 		// These are all optional:
 		dir: {

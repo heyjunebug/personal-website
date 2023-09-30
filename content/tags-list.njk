@@ -1,12 +1,16 @@
 ---
 permalink: /tags/
 layout: layouts/home.njk
+eleventyExcludeFromCollections: false
+title: Tags
 ---
-<h1>Tags</h1>
+<h1>{{ title }}</h1>
 
-<ul>
-{% for tag in collections.all | getAllTags | filterTagList %}
+<ul class="tags-list">
+{% for tag in collections.all | getAllTags | filterTagList | sort(false, false, tag) %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+	<li>
+		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a> ({{ collections[tag].length }})
+	</li>
 {% endfor %}
 </ul>

@@ -1,0 +1,10 @@
+---
+layout: layouts/home.njk
+eleventyExcludeFromCollections: false
+---
+<h1>
+  Drafts
+</h1>
+
+{% set postslist = collections.drafts %}
+{% include "postslist.njk" %}

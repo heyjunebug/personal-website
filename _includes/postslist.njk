@@ -1,9 +1,43 @@
-{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
+{% css %}{% include "public/css/post.css" %}{% endcss %}
+{% css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
 <ol reversed class="postlist">
 {% for post in postslist | reverse %}
 	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+	<div class="entry">
+		<div class="left">
+		<p class="metadata">
+			<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">
+			{{ post.date | readableDate("LLL dd yyyy") }}
+			</time>
+		</p>
+		{% if post.data.tags %}
+			<ul class="postlist-metadata">
+				{% for tag in post.data.tags | filterTagList | sort(false, false, tag) %}
+				{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+				<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+		<div class="right">
+			<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
+				{% if post.data.featuredImg %}
+					<img 
+					src="{{ post.data.featuredImg }}"
+					alt="Collected work from {{ post.data.title }}"
+					class="portfolio-featuredImg"
+					/>
+				{% endif %}
+			</a>
+		{% if post.data.excerpt %}
+			<p class="postlist-excerpt">
+				{{ post.data.excerpt | safe }}
+			</p>
+		{% endif %}
+		
+		</div>
+		
+	</div>
 	</li>
 {% endfor %}
 </ol>

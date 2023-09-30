@@ -1,11 +1,12 @@
 module.exports = {
-	title: "Eleventy Base Blog v8",
-	url: "https://example.com/",
+	title: 'June Like the Month',
+	url: "https://heyjunebug.com/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "The personal blog and portfolio of June Umfress, a designer and writer who lives in the San Francisco Bay Area.",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
-	}
+		name: "June Lin Umfress",
+		email: "june@fascianistas.com",
+		url: "/about/"
+	},
+	favicon: "/img/favicon/juneLikeTheMonthAbbr_2x.png"
 }

@@ -1,10 +1,13 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Archive
-  order: 2
+  key: Blog
+  order: 3
+eleventyExcludeFromCollections: false
 ---
-<h1>Archive</h1>
+<h1>
+  Blog
+</h1>
 
 {% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+{% include "postslist_byYear.njk" %}
