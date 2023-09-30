@@ -8,5 +8,5 @@ module.exports = {
 		email: "june@fascianistas.com",
 		url: "/about/"
 	},
-	favicon: "/img/favicon/juneLikeTheMonthAbbr_2x.png"
+	favicon: "/img/favicon/juneLikeTheMonthAbbr_2x.webp"
 }
