@@ -2,9 +2,9 @@
 title: Colophon
 layout: layouts/post.njk
 date: 2023-09-19
-backgroundLight: '0, 0%, 92%'
+backgroundLight: '0, 0%, 95%'
 textLight: '0, 0%, 10%'
-linkLight: '350, 66%, 66%'
+linkLight: '350, 50%, 35%'
 activeLinkLight: '350, 90%, 60%'
 visitedLinkLight: '350, 75%, 25%'
 backgroundDark: '210, 15%, 10%'

@@ -53,10 +53,10 @@
 /* Colors for the Pantone Chips */
 
 .textLight { background: hsl(0, 0%, 10%); } 
-.linkLight { background: hsl(350, 66%, 66%); }
+.linkLight { background: hsl(350, 50%, 35%); }
 .activeLinkLight { background: hsl(350, 90%, 60%); }
 .visitedLinkLight { background: hsl(350, 75%, 25%); }
-.backgroundLight { background: hsl(0, 0%, 92%); }
+.backgroundLight { background: hsl(0, 0%, 95%); }
 
 .textDark { background: hsl(0, 0%, 85%); }
 .linkDark { background: hsl(210, 75%, 50%); }

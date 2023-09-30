@@ -12,12 +12,12 @@
 	--color-gray-50: hsl(0, 0%, 50%);
 	--color-gray-90: hsl(0, 0%, 10%);
 
-	--background-color: hsl(0, 0%, 92%);
+	--background-color: hsl(0, 0%, 95%);
 
 	--text-color: var(--color-gray-90);
 	--text-color-link-visited: hsl(350, 75%, 25%);
 	--text-color-link-active: hsl(350, 90%, 60%);
-	--text-color-link: hsl(350, 66%, 66%);
+	--text-color-link: hsl(350, 50%, 35%);
 
 	--syntax-tab-size: 2;
 
