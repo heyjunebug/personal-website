@@ -2,7 +2,7 @@
 title: Inflamed
 layout: layouts/post.njk
 date: 2023-02-19
-featuredImg: "/img/books/inflamed-cover.jpg"
+featuredImg: "/img/books/inflamed-cover.webp"
 ---
 
 In what may be an example of irony, this book has been making me feel “inflamed.” When I think about the mark left by the book thus far, I can’t help but feel critical.

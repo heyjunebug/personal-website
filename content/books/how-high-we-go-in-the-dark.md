@@ -2,7 +2,7 @@
 title: How High We Go in the Dark
 layout: layouts/post.njk
 date: 2023-02-13
-featuredImg: "/img/books/how-high-we-go-in-the-dark-cover.jpg"
+featuredImg: "/img/books/how-high-we-go-in-the-dark-cover.webp"
 ---
 
 Sequoia Nagamatsu builds the narrative in <em>How High We Go in the Dark</em> through interconnected stories, weaving the story of a reawakened milennia old plague.
