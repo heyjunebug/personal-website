@@ -1,10 +1,9 @@
 {% css %}{% include "public/css/book.css" %}{% endcss %}
 {% css %}.booklist { counter-reset: start-from {{ (booklistCounter or booklist.length) + 1 }} }{% endcss %}
-<ol reversed class="booklist">
-<div class="book-container">
+
+<ol reversed class="booklist book-container">
 {% for post in booklist | reverse %}
-	<div class="book">
-		<li class="booklist-item{% if post.url == url %} booklist-item-active{% endif %}">	
+		<li class="book booklist-item{% if post.url == url %} booklist-item-active{% endif %}">	
 			<a href="{{ post.url }}" class="postlist-link">
 				{% if post.data.featuredImg %}
 				<img 
@@ -28,7 +27,6 @@
 			{{ post.date | readableDate("LLLL yyyy") }}
 			</time>
 		</li>
-	</div>
 {% endfor %}
-</div>
 </ol>
+
