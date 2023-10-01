@@ -11,7 +11,10 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
 
 		{# Favicon #}
-		<link rel="shortcut icon" href="{{ metadata.favicon }}" type="image/png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/img/favicon/site.webmanifest">
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		<meta name="generator" content="{{ eleventy.generator }}">
@@ -43,7 +46,7 @@
 		<header>
 			<a href="/" class="home-link">
 				<img 
-					src="/img/favicon/juneLikeTheMonth_2x.webp" alt="The logo of June Umfress: a calendar flipped to the month of June"
+					src="/img/logo/juneLikeTheMonth_2x.webp" alt="The logo of June Umfress: a calendar flipped to the month of June"
 					class="logo">
 				<p>{{ metadata.title }}</p>
 			</a>
