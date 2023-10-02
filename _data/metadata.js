@@ -7,6 +7,5 @@ module.exports = {
 		name: "June Lin Umfress",
 		email: "june@fascianistas.com",
 		url: "/about/"
-	},
-	favicon: "/img/favicon/juneLikeTheMonthAbbr_2x.webp"
+	}
 }
