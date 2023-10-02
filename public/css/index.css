@@ -370,6 +370,7 @@ p.metadata {
 	a[href].header-anchor, 
 	a[href*="fn"] {
 		scroll-margin-top: 16rem;
+		scroll-margin-bottom: 16rem;
 	}
 	.entry {
 		display: block;
@@ -396,7 +397,8 @@ p.metadata {
 	}
 	a[href].header-anchor, 
 	a[href*="fn"] {
-		scroll-margin-top: 12rem;
+		scroll-margin-top: 20rem;
+		scroll-margin-bottom: 20rem;
 	}
 }
 
@@ -428,7 +430,8 @@ a[href].header-anchor:focus,
 
 a[href].header-anchor, 
 a[href*="fn"] {
-  scroll-margin-top: 4rem;
+	scroll-margin-top: 24rem;
+	scroll-margin-bottom: 24rem;
 }
 
 /* Home page class: styling text+link to archive */
