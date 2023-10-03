@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 numberOfLatestPostsToShow: 2
-numberOfLatestBooksToShow: 2
+numberOfLatestBooksToShow: 3
 eleventyNavigation:
   key: Home
   order: 1
@@ -41,7 +41,7 @@ eleventyExcludeFromCollections: false
 <div class="entry">
 	<div class="left"></div>
 	<div class="right">
-	{# <p class="more">Check out the {{ moreBooks }} in <a href="/blog/">the archive</a>.</p> #}
+	<p class="read-more">Read about {{ moreBooks }} more book{% if moreBooks != 1 %}s{% endif %} in <a href="/books/">the library</a>.</p>
 	</div>
 </div>
 {% endif %}
