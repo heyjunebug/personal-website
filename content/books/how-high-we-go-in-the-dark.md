@@ -6,7 +6,7 @@ readDate: 2023-01-05
 featuredImg: "/img/books/how-high-we-go-in-the-dark-cover.webp"
 ---
 
-Sequoia Nagamatsu builds the narrative in <em>How High We Go in the Dark</em> through interconnected stories, weaving the story of a reawakened milennia old plague.
+Sequoia Nagamatsu builds the narrative through interconnected stories of discovery and grief, weaving the story of a reawakened milennia old plague.
 <!-- excerpt -->
 
 {% image "img/how-high-we-go-in-the-dark-cover.jpg", "The cover of How High We Go in the Dark set on top of a watercolor-esque background." %}
