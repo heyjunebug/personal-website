@@ -11,7 +11,7 @@ body {
 	color: var(--text-color);
 	background-color: var(--background-color);
 	text-rendering: optimizeLegibility;
-	font-size: 1.125rem;
+	font-size: 1.05rem;
 }
 html {
 	overflow-y: scroll;
@@ -136,7 +136,6 @@ header {
 	}
 }
 .home-link {
-	font-size: 1.125rem; /* 16px /16 */
 	font-style: italic;
 	text-transform: lowercase;
 	display: flex;
@@ -187,7 +186,7 @@ footer {
 	padding-right: 1rem;
 	padding-left: 1rem;
 	padding-bottom: 1rem;
-	margin-top: 9vh;
+	margin-top: 4rem;
 	font-size: 0.75rem;
 	font-family: var(--font-family-monospace);
 	display: flex;
