@@ -55,12 +55,10 @@
 .textLight { background: hsl(0, 0%, 10%); } 
 .linkLight { background: hsl(350, 50%, 35%); }
 .activeLinkLight { background: hsl(350, 90%, 60%); }
-.visitedLinkLight { background: hsl(350, 75%, 25%); }
 .backgroundLight { background: hsl(0, 0%, 95%); }
 
 .textDark { background: hsl(0, 0%, 85%); }
-.linkDark { background: hsl(210, 75%, 50%); }
-.activeLinkDark { background: hsl(210, 75%, 75%); }
-.visitedLinkDark { background: hsl(210, 75%, 90%); }
+.linkDark { background: hsl(210, 100%, 85%); }
+.activeLinkDark { background: hsl(210, 75%, 50%); }
 .backgroundDark {	background: hsl(210, 15%, 10%); }
 
