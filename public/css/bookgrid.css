@@ -1,0 +1,64 @@
+/* Books List */
+.book-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+/* .book {
+	width: 32%;
+} */
+
+.booklist {
+	list-style: none;
+	padding: 0;
+}
+
+.booklist-item {
+	/* counter-increment: start-from -1; */
+	margin-top: 3rem;
+}
+
+.booklist-item:before {
+	font-family: var(--font-family-sans);
+	display: none;
+	/* pointer-events: none;
+	content: "#" counter(start-from, decimal-leading-zero) "\A";
+	white-space: pre;
+	font-size: 1.5em;
+	padding-bottom: 0.25em;
+	margin-top: 1.5em;
+	font-weight: 300;
+	letter-spacing: 0.025em; */
+}
+
+ol li {
+	max-width: 32.5%;
+}
+
+li img {
+	aspect-ratio: 5 / 7;
+	object-fit: cover;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	height: 20rem;
+	width: 100%;
+	flex-grow: 1;
+}
+
+@media (max-width: 900px) {
+	ol li {
+		min-width: 49%;
+	}
+}
+
+@media (max-width: 600px) {
+	.book-container {
+		display: block;
+	}
+	ol li {
+		min-width: 100%;
+	}
+}

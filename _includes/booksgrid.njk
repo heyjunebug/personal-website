@@ -1,8 +1,8 @@
-{% css %}{% include "public/css/booklist.css" %}{% endcss %}
+{% css %}{% include "public/css/bookgrid.css" %}{% endcss %}
 {% css %}.booklist { counter-reset: start-from {{ (booklistCounter or booklist.length) + 1 }} }{% endcss %}
 
 <ol reversed class="booklist book-container">
-{% for post in booklist | reverse %}
+{% for post in postslist | reverse %}
 		<li class="book booklist-item{% if post.url == url %} booklist-item-active{% endif %}">	
 			<a href="{{ post.url }}" class="postlist-link">
 				{% if post.data.featuredImg %}
