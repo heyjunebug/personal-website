@@ -6,12 +6,10 @@ backgroundLight: '0, 0%, 95%'
 textLight: '0, 0%, 10%'
 linkLight: '350, 50%, 35%'
 activeLinkLight: '350, 90%, 60%'
-visitedLinkLight: '350, 75%, 25%'
 backgroundDark: '210, 15%, 10%'
 textDark: '0, 0%, 85%'
-linkDark: '210, 75%, 75%'
+linkDark: '210, 100%, 85%'
 activeLinkDark: '210, 75%, 50%'
-visitedLinkDark: '210, 75%, 90%'
 ---
 
 {% css %}{% include "public/css/pantone-chip.css" %}{% endcss %}
@@ -80,18 +78,6 @@ This site implements [Modern Font Stacks](https://modernfontstacks.com/) for the
     </div>
   </div>
 
-  {% set colorCode = visitedLinkLight %}
-  <div class="chip">
-    <div class="chip-color visitedLinkLight">
-    </div>
-    <div class="chip-label-box">
-      <div class="chip-label">
-        <h3>HSL</h3>
-        <p>{{ colorCode }}</p>
-      </div>
-    </div>
-  </div>
-
 </div>
 
 #### Dark Mode
@@ -136,18 +122,6 @@ This site implements [Modern Font Stacks](https://modernfontstacks.com/) for the
   {% set colorCode = activeLinkDark %}
   <div class="chip">
     <div class="chip-color activeLinkDark">
-    </div>
-    <div class="chip-label-box">
-      <div class="chip-label">
-        <h3>HSL</h3>
-        <p>{{ colorCode }}</p>
-      </div>
-    </div>
-  </div>
-
-  {% set colorCode = visitedLinkDark %}
-  <div class="chip">
-    <div class="chip-color visitedLinkDark">
     </div>
     <div class="chip-label-box">
       <div class="chip-label">
