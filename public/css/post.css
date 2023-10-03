@@ -43,10 +43,10 @@
 	margin: 0;
 }
 .small-caps {
-	font-size: 0.675em;
 	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.075em;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: 0.035em;
 }
 
 p:first-of-type:not(.read-more, .date) {
@@ -150,6 +150,12 @@ hr {
 	& p {
 		line-height: 1.4;
 	}
+}
+
+div.poem p:first-line {
+	font-variant: small-caps;
+	font-weight: 700;
+  letter-spacing: 0.035em;
 }
 
 /* WARNING: Here there be dragons! Experimental styles */

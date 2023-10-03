@@ -7,9 +7,9 @@ tags:
   - verses
 ---
 
-The rocks are gritty, high and steep, / 
-But I have a promise to keep, / 
-And holds to go before I sleep, / 
+The rocks are gritty, high and steep,
+But I have a promise to keep,
+And holds to go before I sleep,
 And holds to go before I sleep.
 
 <!-- excerpt -->
