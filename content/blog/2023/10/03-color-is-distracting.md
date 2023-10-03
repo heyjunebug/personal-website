@@ -7,7 +7,7 @@ tags:
   - beginnings
   - goal-setting
 draft: true
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 I stumbled into the decision to use <code>filter: grayscale(1);</code>, and I don’t think I’ll go back anytime soon. I find it soothing enough that I may even take it even further and make my entire site shades of gray.
