@@ -67,7 +67,7 @@ This site exists because I want to become an expert on who I am. I’m sharing i
 I write primarily to reflect, to get to know and understand who I am. I recently began reading David C. Baker’s *The Business of Expertise*, and he put it more beautifully than I can.
 
 > The primary beneficiary of every book is the author because—for me, anyway—clarity comes in the articulation and not after it. If I didn’t write I’d never know what I actually believe, and I hope reading this will inspire you to write for the same reason.
-<cite class="blockquote__attribution">David C. Baker</cite>
+<cite>David C. Baker</cite>
 
 Thanks, David, it did.
 

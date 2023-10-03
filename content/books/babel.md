@@ -15,7 +15,7 @@ This book left a lasting impression, and months later, I still think about it. I
 I have composed many sentences in my mind about this book since finishing it in late January/early February (based on the dates logged with my highlights on my Kobo Libra H2O). It’s rare that a book leaves an impression deep enough that I still think about it seven months later—*very* rare. This is my first attempt to make those imaginary sentences real... to translate the vague impressions left by the experience of losing myself the alternate Oxford University of “Babel” into something more tangible.  
 
 > ...the Latin *translatio* means to “carry across”. Translation involves a spatial dimension—a literal transporation of texts across conquered territory, words delivered like spices from an alien land. Words mean something quite different when they journey from the palaces of Rome to the tearooms of today’s Britain.
-<cite class="blockquote__attribution">Professor Playfair (Babel, Chapter 6)</cite>
+<cite>Professor Playfair (Babel, Chapter 6)</cite>
 
 The story is about a child, Robin, displaced from his homeland after his mother dies from cholera. British Professor Lovell offers him a more comfortable life in London, where he will train to enroll in Oxford University’s Royal Institute of Translation, known as Babel. Within Babel’s walls, the magic of this world is guarded closely. Enchanted bars of silver manifest the gaps in meaning between words in different languages.
 
