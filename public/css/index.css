@@ -338,7 +338,7 @@ p.metadata {
 /* Adjustments for smaller screens */
 @media (max-width: 600px) {
 	body {
-		font-size: 0.875rem;
+		font-size: 0.9rem;
 	}
 	header {
 		display: block;
@@ -392,6 +392,9 @@ p.metadata {
 	}
 }
 @media (max-width: 900px) {
+	body {
+		font-size: 0.95rem;
+	}
 	main {
 		margin-top: 2rem;
 	}
