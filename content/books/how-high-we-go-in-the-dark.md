@@ -2,6 +2,7 @@
 title: How High We Go in the Dark
 layout: layouts/post.njk
 date: 2023-02-13
+readDate: 2023-01-05
 featuredImg: "/img/books/how-high-we-go-in-the-dark-cover.webp"
 ---
 

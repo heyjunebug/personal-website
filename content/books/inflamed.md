@@ -2,6 +2,7 @@
 title: Inflamed
 layout: layouts/post.njk
 date: 2023-02-19
+readDate: 2023-02-14
 featuredImg: "/img/books/inflamed-cover.webp"
 ---
 

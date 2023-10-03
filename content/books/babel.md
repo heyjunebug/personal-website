@@ -2,6 +2,7 @@
 title: Babel
 layout: layouts/post.njk
 date: 2023-10-01
+readDate: 2023-02-01
 featuredImg: "/img/books/babel-cover.webp"
 draft: false
 ---
@@ -18,8 +19,8 @@ I have composed many sentences in my mind about this book since finishing it in 
 
 The story is about a child, Robin, displaced from his homeland after his mother dies from cholera. British Professor Lovell offers him a more comfortable life in London, where he will train to enroll in Oxford University’s Royal Institute of Translation, known as Babel. Within Babel’s walls, the magic of this world is guarded closely. Enchanted bars of silver manifest the gaps in meaning between words in different languages.
 
-There are many themes threaded throughout the book, many of which you might guess from the rest of its title and subtitle, “or the Necessity of Violence: An Arcane History of the Oxford Translator’s Revolution”: racism, colonialism, language, identity, social change, and belonging. 
+There are many themes threaded throughout, some of which you might guess from the rest of the book’s title and subtitle, “or the Necessity of Violence: An Arcane History of the Oxford Translator’s Revolution”: racism, colonialism, language, identity, social change, and belonging. 
 
 This book pushed all the right buttons for me. Page-turning action and revelations with characters that felt alive to me—real enough that I saw shades of people I’ve known, past and present. Plenty of footnotes with interesting linguistic asides. I loved it enough I hunted down R.F. Kuang’s other books—“Yellowface”^[I’ll be writing an impression for this one in the coming weeks, too. It consumed me just as “Babel” did, but for very different reasons.] and “The Poppy War” series.^[I have read just the first so far. It is well-written, but intense. War isn’t something I enjoy reading about, and Kuang’s writing is so vivid that this book is *good* but not pleasurable to read. I do intend on reading the rest of the series at some point, though.]
 
-This was my first of her books, and after how long this book and “Yellowface” lingered in my mind after completing them, I will make time to read Kuang’s future releases.
+This was my first of her books, and after thoroughly enjoying this book and “Yellowface,” I am certain I will always make time to read Kuang’s future releases.
