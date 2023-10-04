@@ -39,6 +39,6 @@ eleventyExcludeFromCollections: false
 {% set moreBooks = bookCount - numberOfLatestBooksToShow %}
 {% if moreBooks > 0 %}
 <div class="entry">
-	<p class="read-more">Read about {{ moreBooks }} more book{% if moreBooks != 1 %}s{% endif %} in <a href="/books/">the library</a>.</p>
+	<p class="read-moreBooks">Read about {{ moreBooks }} more book{% if moreBooks != 1 %}s{% endif %} in <a href="/books/">the library</a>.</p>
 </div>
 {% endif %}
