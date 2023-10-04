@@ -52,6 +52,11 @@ layout: layouts/base.njk
 			{% set nextPost = collections.books | getNextCollectionItem %}
 			{% include 'partials/_links-nextprev.njk' %}
 		{% endif %}
+		{% if collections.phys %}
+			{% set previousPost = collections.phys | getPreviousCollectionItem %}
+			{% set nextPost = collections.phys | getNextCollectionItem %}
+			{% include 'partials/_links-nextprev.njk' %}
+		{% endif %}
 
 	</div>
 	{# <div class="right">
