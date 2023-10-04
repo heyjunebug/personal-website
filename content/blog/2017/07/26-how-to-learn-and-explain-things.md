@@ -6,7 +6,6 @@ draft: true
 tags:
   - communication
   - how-to
-  - books read
 ---
 How we learn and acquire knowledge: the role of experience and explanation, and the timing of them...
 <!-- excerpt -->
