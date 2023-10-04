@@ -5,8 +5,16 @@ layout: layouts/base.njk
 {% css %}{% include "node_modules/prism-themes/themes/prism-dracula.css" %}{% endcss %}
 {% css %}{% include "public/css/prism-diff.css" %}{% endcss %}
 {% css %}{% include "public/css/post.css" %}{% endcss %}
+{% css %}{% include "public/css/message-box.css" %}{% endcss %}
 
 <h1>{{ title | addNbsp | safe }}</h1>
+
+{% if draft == true %}
+<div class="message-box">
+	<h3>Attention!</h3>
+	<p><em>This is a draft.</em> That means this page doesn’t meet my minimum requirements for “done, but not perfect.” Expect it to undergo substantial changes before this alert is removed!</p>
+</div>
+{% endif %}
 
 <div class="entry">
 	<div class="left">
@@ -26,7 +34,7 @@ layout: layouts/base.njk
 		</ul>
 	{% endif %}
 	</div>
-	
+
 	<div class="right">
 		{{ content | safe }}
 

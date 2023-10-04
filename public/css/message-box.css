@@ -1,0 +1,21 @@
+/* Message Box */
+.message-box {
+	--color-message-box: hsl(45, 100%, 95%);
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+  border: var(--border);
+  border-color:  var(--text-color-link);
+	padding-top: 0.25rem;
+  padding-bottom: 0.5rem; 
+  padding-left: 1.25rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: hsl(200, 90%, 10%);
+	}
+}
