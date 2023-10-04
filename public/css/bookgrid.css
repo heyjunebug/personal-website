@@ -1,10 +1,9 @@
 /* Books List */
 .book-container {
 	display: flex;
-	/* justify-content: space-between; */
 	align-items: flex-start;
 	flex-wrap: wrap;
-	gap: 0.5rem;
+	gap: 1.25%;
 }
 
 /* .book {
@@ -51,6 +50,9 @@ li img {
 @media (max-width: 900px) {
 	ol li {
 		min-width: 49%;
+	}
+	.book-container {
+		gap: 2%;
 	}
 }
 
