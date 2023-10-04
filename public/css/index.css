@@ -12,6 +12,7 @@ body {
 	background-color: var(--background-color);
 	text-rendering: optimizeLegibility;
 	font-size: 1.05rem;
+	line-height: 1.6;
 }
 html {
 	overflow-y: scroll;
