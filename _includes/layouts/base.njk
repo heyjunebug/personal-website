@@ -43,70 +43,13 @@
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
-		<header>
-			<a href="/" class="home-link">
-				<img 
-					src="/img/logo/juneLikeTheMonth_2x.webp" alt="The logo of June Umfress: a calendar flipped to the month of June"
-					class="logo">
-				<p>{{ metadata.title }}</p>
-			</a>
-
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Primary navigation menu</h2>
-				<ul class="nav">
-				{% for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{% endfor %}
-				</ul>
-			</nav>
-		</header>
+		{% include 'partials/_site-header.njk' %}
 
 		<main id="skip">
 			{{ content | safe }}
 		</main>
 
-		<footer>
-
-			<nav class="footer-nav">
-				<h2 class="visually-hidden">Secondary navigation menu</h2>
-				<ul class="footer-nav-list">
-					<li class="footer-nav-item">
-						<a href="/portfolio/now/index.html">
-							Now</a>
-					</li>
-					<li class="footer-nav-item">
-						<a href="/tags/">
-							Tags</a>
-					</li>
-					<li class="footer-nav-item">
-						<a href="/feed/feed.xml">RSS</a>
-					</li>
-					<li class="footer-nav-item">
-						<a href="mailto:june@fascianistas.com">Email</a>
-					</li>
-					
-					<li class="footer-nav-item">
-						<a href="/colophon/index.html">Colophon</a>
-					</li>
-					<li class="footer-nav-item">
-						<a href="https://github.com/heyjunebug/personal-website">Source</a>
-					</li>
-					<li class="footer-nav-item">
-						<a href="/sitemap/index.html">Sitemap</a>
-					</li>
-					<li class="footer-nav-item">
-						<a href="/drafts/index.html">WIP</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="copyright">
-				<p>Made with ❤️ in San Francisco <br />by Shou June Lin Umfress 林曉君.</p>
-				<p>Text <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> 2023.</p>
-				<p></p>
-			</div>
-
-		</footer>
+		{% include 'partials/_site-footer.njk' %}
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>

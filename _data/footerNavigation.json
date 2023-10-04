@@ -1,0 +1,36 @@
+{
+  "items": [
+      {
+          "text": "Now",
+          "url": "/portfolio/now/"
+      },
+      {
+          "text": "Tags",
+          "url": "/tags/"
+      },
+      {
+          "text": "RSS",
+          "url": "/feed/feed.xml"
+      },
+      {
+          "text": "Email",
+          "url": "mailto:june@fascianistas.com"
+      },
+      {
+          "text": "Colophon",
+          "url": "/colophon/"
+      },
+      {
+        "text": "Source",
+        "url": "https://github.com/heyjunebug/personal-website"
+      },
+      {
+        "text": "Sitemap",
+        "url": "/sitemap/index.html"
+      },
+      {
+        "text": "WIP",
+        "url": "/drafts/"
+      }
+  ]
+}

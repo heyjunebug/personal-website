@@ -1,0 +1,17 @@
+<footer>
+  <nav class="footer-nav">
+    <h2 class="visually-hidden">Secondary navigation menu</h2>
+    <ul class="footer-nav-list">
+      {% for item in footerNavigation.items %}
+      <li class="footer-nav-item">
+        <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <div class="copyright">
+    <p>Made with ❤️ in San Francisco <br />by Shou June Lin Umfress 林曉君.</p>
+    <p>Text <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> 2023.</p>
+    <p></p>
+  </div>
+</footer>
