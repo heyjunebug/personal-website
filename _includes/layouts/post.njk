@@ -41,32 +41,16 @@ layout: layouts/base.njk
 		{% if collections.posts %}
 			{% set previousPost = collections.posts | getPreviousCollectionItem %}
 			{% set nextPost = collections.posts | getNextCollectionItem %}
-			{% if nextPost or previousPost %}
-			<ul class="links-nextprev">
-				{% if previousPost %}<li>← Previous<br><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-				{% if nextPost %}<li>Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-			</ul>
-			{% endif %}
 		{% endif %}
 		{% if collections.portfolio %}
 			{% set previousPost = collections.portfolio | getPreviousCollectionItem %}
 			{% set nextPost = collections.portfolio | getNextCollectionItem %}
-			{% if nextPost or previousPost %}
-			<ul class="links-nextprev">
-				{% if previousPost %}<li>← Previous<br><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-				{% if nextPost %}<li>Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-			</ul>
-			{% endif %}
+			{% include 'partials/_links-nextprev.njk' %}
 		{% endif %}
 		{% if collections.books %}
 			{% set previousPost = collections.books | getPreviousCollectionItem %}
 			{% set nextPost = collections.books | getNextCollectionItem %}
-			{% if nextPost or previousPost %}
-			<ul class="links-nextprev">
-				{% if previousPost %}<li>← Previous<br><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-				{% if nextPost %}<li>Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-			</ul>
-			{% endif %}
+			{% include 'partials/_links-nextprev.njk' %}
 		{% endif %}
 
 	</div>
