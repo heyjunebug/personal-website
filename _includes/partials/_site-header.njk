@@ -1,18 +1,22 @@
-<header>
-  <a href="/" class="home-link">
-    <img 
-      src="/img/logo/juneLikeTheMonth_2x.webp" alt="The logo of June Umfress: a calendar flipped to the month of June"
-      class="logo">
-    <p>{{ metadata.title }}</p>
-  </a>
-
+<header id="top">
+  <div>
+    <a href="/"><img 
+      src="/img/logo/juneLikeTheMonth_2x.webp" 
+      alt="The logo of June Umfress: a calendar flipped to the month of June"
+      class="logo"></a>
+    <p><a href="/" class="home-link">{{ metadata.title }}</a> / </p>
+    <p><a href="{{ page.url }}">{{ title | safe }}</a></p>
+  </div>
+  <div>
+    <a class="jump-links" href="#nav">↓&nbsp;Navigation</a>
+  </div>
   {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-  <nav>
+  {# <nav>
     <h2 class="visually-hidden">Primary navigation menu</h2>
     <ul class="nav">
     {% for entry in collections.all | eleventyNavigation %}
       <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
     {% endfor %}
     </ul>
-  </nav>
+  </nav> #}
 </header>

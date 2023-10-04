@@ -1,36 +1,54 @@
 {
-  "items": [
-      {
-          "text": "Now",
-          "url": "/portfolio/now/"
-      },
-      {
-          "text": "Tags",
-          "url": "/tags/"
-      },
-      {
-          "text": "RSS",
-          "url": "/feed/feed.xml"
-      },
-      {
-          "text": "Email",
-          "url": "mailto:june@fascianistas.com"
-      },
-      {
-          "text": "Colophon",
-          "url": "/colophon/"
-      },
-      {
-        "text": "Source",
-        "url": "https://github.com/heyjunebug/personal-website"
-      },
-      {
-        "text": "Sitemap",
-        "url": "/sitemap/index.html"
-      },
-      {
-        "text": "WIP",
-        "url": "/drafts/"
-      }
+	"infoItems": [
+		{
+			"text": "About",
+			"url": "/about/"
+		},
+    {
+			"text": "Now",
+			"url": "/portfolio/now/"
+		},
+    {
+			"text": "Email",
+			"url": "mailto:june@fascianistas.com"
+		},
+    {
+			"text": "RSS",
+			"url": "/feed/feed.xml"
+		},
+		{
+			"text": "Colophon",
+			"url": "/colophon/"
+		},
+		{
+			"text": "Source",
+			"url": "https://github.com/heyjunebug/personal-website"
+		}
+	],
+  "indexItems": [
+		{
+			"text": "Blog",
+			"url": "/blog/"
+		},
+    {
+			"text": "Books",
+			"url": "/books/"
+		},
+    {
+			"text": "Notes",
+			"url": "/notes/"
+		},
+    {
+			"text": "Tags",
+			"url": "/tags/"
+		},
+    {
+			"text": "Drafts",
+			"url": "/drafts/"
+		},
+    {
+			"text": "Sitemap",
+			"url": "/sitemap/"
+		}
   ]
 }

@@ -1,17 +1,29 @@
-<footer>
-  <nav class="footer-nav">
-    <h2 class="visually-hidden">Secondary navigation menu</h2>
-    <ul class="footer-nav-list">
-      {% for item in footerNavigation.items %}
-      <li class="footer-nav-item">
-        <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+<footer id="nav">
+  <nav>
+    <h2 class="visually-hidden">Navigation menu</h2>
+    <div class="footer-column">
+      <h3>Indexes</h3>
+      <ul class="footer-nav-list">
+        {% for item in footerNavigation.indexItems %}
+        <li class="footer-nav-item">
+          <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Information</h3>
+      <ul class="footer-nav-list">
+        {% for item in footerNavigation.infoItems %}
+        <li class="footer-nav-item">
+          <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </nav>
   <div class="copyright">
-    <p>Made with ❤️ in San Francisco <br />by Shou June Lin Umfress 林曉君.</p>
-    <p>Text <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> 2023.</p>
-    <p></p>
+    <p>Made with ❤️ in San Francisco by Shou June Lin Umfress 林曉君. Text <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> 2023.</p>
+    <p><a class="jump-links" href="#top">↑ Back to top.</a></p>
   </div>
 </footer>
