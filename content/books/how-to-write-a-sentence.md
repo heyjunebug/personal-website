@@ -1,5 +1,5 @@
 ---
-title: How to Write a Sentence and How to Read One
+title: How to Write a Sentence
 layout: layouts/post.njk
 date: 2017-07-29
 readDate: 2017-06-05
