@@ -3,9 +3,7 @@ title: 'Color is Distracting'
 date: 2023-10-03
 tags: 
   - challenges
-  - career
-  - beginnings
-  - goal-setting
+  - responsibility
 draft: true
 ---
 
