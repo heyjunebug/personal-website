@@ -98,6 +98,9 @@ code[class*="language-"] {
 	font-family: var(--font-family-monospace);
 	font-size: 0.875em;
 	letter-spacing: 0.025em;
+	white-space: pre-wrap;
+	overflow: auto;
+	word-break: break-word;
 }
 pre:not([class*="language-"]) {
 	margin: .5em 0;
