@@ -59,10 +59,10 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-sans);
-	/* font-weight: 600; */
 	letter-spacing: 0.0125em;
 	line-height: 1.325;
 	text-wrap: balance;
+	margin-bottom: 0.5rem;
 }
 
 /* Links */
