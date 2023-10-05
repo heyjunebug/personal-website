@@ -19,7 +19,7 @@ This site is built using [Eleventy](https://11ty.dev). I used the [Eleventy Base
 My design sensibility is somewhere between brutalism and minimalism—I’ve decided the closest descriptor is probably “essentialism.” I touch just enough to hint at an identity, but generally, my designs look like they belong to the client, not to me. (Except this site, where I am both client and designer... and like most designers know, that gets complicated quickly!)
 
 This site implements [Modern Font Stacks](https://modernfontstacks.com/) for the site for speed and accessibility. 
-* the Humanist stack for headings
+* the Classical Humanist stack for headings
 * the Transitional stack for paragraphs
 * the Geometric Humanist stack for buttons and labels
 * the Monospace stack for metadata and code
