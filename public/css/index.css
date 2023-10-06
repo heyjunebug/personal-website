@@ -83,6 +83,16 @@ a[href]:active {
 	font-weight: 700;
 }
 
+a:not(
+	[href^="#"],
+	[href^="/"],
+	[href*="localhost"],
+	[href*="heyjunebug.com"]
+)::after {
+  content: "↗";
+  margin-inline-start: 0.5ch;
+}
+
 table {
 	margin: 1em 0;
 }
