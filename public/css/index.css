@@ -239,10 +239,9 @@ p.metadata {
 	pointer-events: none;
 	content: "#" counter(start-from, decimal-leading-zero) "\A";
 	white-space: pre-wrap;
-	font-size: 1.5em;
-	padding-bottom: 0.25em;
+	font-size: 1.25em;
+	font-weight: 700;
 	margin-top: 1.5em;
-	font-weight: 300;
 	letter-spacing: 0.025em;
 }
 .postlist-category {
