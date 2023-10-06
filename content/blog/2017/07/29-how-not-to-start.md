@@ -4,7 +4,7 @@ layout: layouts/post.njk
 date: 2017-07-29
 tags:
   - challenges
-  - how-to
+  - how to
 ---
 What makes it difficult to start a new project, of any kind and any magnitude: a website, a brand, a blog entry? Or how not to be obsessed with how....
 <!-- excerpt -->

@@ -4,7 +4,7 @@ layout: layouts/post.njk
 date: 2017-07-25
 tags:
   - challenges
-  - how-to
+  - how to
 ---
 How to cope with imperfection and what it means to have enough and be enough...
 <!-- excerpt -->

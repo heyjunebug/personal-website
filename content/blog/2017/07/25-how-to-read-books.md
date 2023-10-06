@@ -4,7 +4,7 @@ layout: layouts/post.njk
 date: 2017-07-25
 tags:
   - reading
-  - how-to
+  - how to
 ---
 How to keep a reading journal and how reading is connected to learning about one's self...
 <!-- excerpt -->

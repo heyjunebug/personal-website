@@ -4,7 +4,7 @@ layout: layouts/post.njk
 date: 2017-07-28
 tags:
   - challenges
-  - how-to
+  - how to
 ---
 Why uncertainty makes us uncomfortable, some myths about uncertainty, and how to deal with it...
 <!-- excerpt -->

@@ -5,7 +5,7 @@ date: 2017-07-25
 draft: true
 tags:
   - communication
-  - how-to
+  - how to
 ---
 How we learn and acquire knowledge: the role of experience and explanation, and the timing of them...
 <!-- excerpt -->

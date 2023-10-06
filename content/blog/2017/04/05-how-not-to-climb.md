@@ -4,7 +4,7 @@ layout: layouts/post.njk
 date: 2017-04-05
 tags:
   - climbing
-  - how-to
+  - how to
 ---
 An open letter—a rant, really—to new climbing couples... (Warning: snark alert!)
 <!-- excerpt -->
