@@ -25,7 +25,9 @@ I’m trying this out to help me read and understand my material best. In 8th gr
 
 In 12th grade, my English teacher suggested reading Alain de Botton’s “How Proust Can Change Your Life.” I finally picked it up this week. While I haven’t finished it, I am enamored with the following quote: 
 > In reality, every reader is, while he is reading, the reader of his own self. The writer’s work is merely a kind of optical instrument which he offers to the reader to enable him to discern what, without this book, he would perhaps never have experienced in himself. And the recognition by the reader in his own self of what the book says is the proof of its veracity.
+
 Proust’s idea of reading as a way of understanding ourselves applies to all media: not just written media. I’ve been absorbing information from as many sources as I can recently, taking a special interest in learning, productivity, expertise, and emotions.
+
 The media that has resonated with me and energized me recently has focused on developing a praxis of reflection that will help me be my most authentic self (note: I did not say my best self). The most challenging, but engaging media has peered into the darkest corners of my soul that I rarely look at and make me cringe: my privilege, my obsessive intellect, my fragile self-worth, my shame.
 
 ### My Reading Journal
