@@ -344,11 +344,6 @@ p.metadata {
 	.logo {
 		max-width: 48px;
 	}
-	a[href].header-anchor, 
-	a[href*="fn"] {
-		scroll-margin-top: 24rem;
-		scroll-margin-bottom: 24rem;
-	}
 	.entry {
 		display: block;
 	}
@@ -372,11 +367,6 @@ p.metadata {
 	body {
 		font-size: 0.975rem;
 	}
-	a[href].header-anchor, 
-	a[href*="fn"] {
-		scroll-margin-top: 20rem;
-		scroll-margin-bottom: 20rem;
-	}
 }
 
 /* Direct Links / Markdown Headers */
@@ -399,12 +389,6 @@ a[href].header-anchor:hover {
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
 	color: #aaa;
-}
-
-a[href].header-anchor, 
-a[href*="fn"] {
-	scroll-margin-top: 16rem;
-	scroll-margin-bottom: 16rem;
 }
 
 /* Home page class: styling text+link to archive */
