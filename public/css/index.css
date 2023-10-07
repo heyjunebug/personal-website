@@ -91,6 +91,7 @@ a:not(
 )::after {
   content: "↗";
   margin-inline-start: 0.5ch;
+	font-family: var(--font-family-monospace);
 }
 
 table {
