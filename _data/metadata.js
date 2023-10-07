@@ -6,6 +6,9 @@ module.exports = {
 	author: {
 		name: "June Lin Umfress",
 		email: "june@fascianistas.com",
-		url: "/about/"
+		url: "https://heyjunebug.com/about",
+		location: "Daly City, CA, USA",
+		hometown: "Glendale, AZ, USA",
+		fediverseProfile: "https://typo.social/@heyjune"
 	}
 }
