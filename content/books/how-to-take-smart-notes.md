@@ -8,6 +8,10 @@ hasHighlights: true
 featuredImg: "/img/books/how-to-take-smart-notes-cover.webp"
 ---
 
+An in-depth exploration of how to take notes that *actively* build and expand your knowledge. This book is meant to be digested slowly. Currently halfway through.
+
+<!-- excerpt -->
+
 ## Highlights
 
 ### Introduction
