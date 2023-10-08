@@ -31,7 +31,7 @@ eleventyExcludeFromCollections: false
 {% set bookCount = collections.books | length %}
 {% set latestBooksCount = bookCount | min(numberOfLatestBooksToShow) %}
 
-<h2 class="postlist-category">Last {{ latestBooksCount }} Book{% if latestBooksCount != 1 %}s{% endif %} Read</h2>
+<h2 class="postlist-category">Last {{ latestBooksCount }} Book{% if latestBooksCount != 1 %}s{% endif %}</h2>
 
 {% set booklist = collections.books | head(-1 * numberOfLatestBooksToShow) %}
 {% set booklistCounter = bookCount %}
