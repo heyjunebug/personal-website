@@ -128,21 +128,6 @@ ul li {
 	}
 }
 
-/* Highlighting */
-mark {
-	background: var(--text-color-link);
-	opacity: 0.75;
-	border-radius: 0.25em;
-	padding-bottom: 0.125em;
-	padding-left: 0.125em;
-	padding-right: 0.125em;
-	z-index: 0;
-	&:hover {
-		background: var(--text-color-link-active);
-		color: var(--background-color);
-	}
-}
-
 /* In-line References & Footnotes */
 
 sup {
@@ -182,4 +167,16 @@ div.poem p:first-line {
 
 /* WARNING: Here there be dragons! Experimental styles */
 
-/* There’s nothing to see here! */
+/* Highlighting */
+/* mark {
+	background: var(--text-color-link);
+	opacity: 0.75;
+	padding-bottom: 0.125em;
+	padding-left: 0.125em;
+	padding-right: 0.125em;
+	z-index: 0;
+	&:hover {
+		background: var(--text-color-link-active);
+		color: var(--background-color);
+	}
+} */
