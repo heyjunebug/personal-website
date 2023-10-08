@@ -41,6 +41,7 @@
 		{# <style>{% getBundle "css" %}</style> #}
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+		<link href="/css/print.css" media="print" rel="stylesheet" />
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
