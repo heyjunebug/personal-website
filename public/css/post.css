@@ -113,6 +113,21 @@ ul li {
 	display: block;
 }
 
+/* Book Highlights */
+.highlights ul {
+	padding: 0;
+	& li {
+		margin-inline-start: 1rem;
+		padding-inline-start: 1rem;
+		}
+	& li::marker {
+		content: '“';
+		font-size: 1.75rem;
+		font-weight: 700;
+		color: var(--color-gray-50);
+	}
+}
+
 /* Highlighting */
 mark {
 	background: var(--text-color-link);

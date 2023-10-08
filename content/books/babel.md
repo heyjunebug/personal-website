@@ -28,6 +28,7 @@ This book pushed all the right buttons for me. Page-turning action and revelatio
 This was my first of her books, and after thoroughly enjoying this book and “Yellowface,” I am certain I will always make time to read Kuang’s future releases.
 
 ## Highlights
+<div class="highlights">
 
 * So you see, translators do not so much deliver a message as they rewrite the original. And herein lies the difficulty – rewriting is still writing, and writing always reflects the author’s ideology and biases. After all, the Latin *translatio* means “to carry across”. Translation involves a spatial dimension – a literal transportation of texts across conquered territory, words delivered like spices from an alien land. Words mean something quite different when they journey from the palaces of Rome to the tearooms of today’s Britain.
 
@@ -36,3 +37,4 @@ This was my first of her books, and after thoroughly enjoying this book and “Y
 * Tytler recommends three basic principles... ‘First, that the translation conveys a complete and accurate idea of the original,’ said Victoire. ‘Second, that the translation mirrors the style and manner of writing of the original. And third, that the translation should read with all the ease of the original composition.’
 
 * Theory comes from the Greek *theōria*, meaning a sight or spectacle, whose root also gives us the word theatre.
+</div>
