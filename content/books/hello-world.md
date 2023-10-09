@@ -39,12 +39,12 @@ featuredImg: "/img/books/hello-world-cover.webp"
 * Algorithms can’t decide guilt. They can’t weigh up arguments from the defence and prosecution, or analyse evidence, or decide whether a defendant is truly remorseful. So don’t expect them to replace judges any time soon. What an algorithm can do, however, incredible as it might seem, is use data on an individual to calculate their risk of re-offending. And, since many judges’ decisions are based on the likelihood that an offender will return to crime, that turns out to be a rather useful capacity to have.
 
 * ‘There are good guys and bad guys,’ he told me. ‘Your algorithm is effectively asking: “Who are the Darth Vaders? And who are the Luke Skywalkers?”’
-Letting a Darth Vader go free is one kind of error, known as a false negative. It happens whenever you fail to identify the risk that an individual poses.
-Incarcerating Luke Skywalker, on the other hand, would be a false positive. This is when the algorithm incorrectly identifies someone as a high-risk individual.
-These two kinds of error, false positive and false negative, are not unique to recidivism. They’ll crop up repeatedly throughout this book. Any algorithm that aims to classify can be guilty of these mistakes.
+  <p>Letting a Darth Vader go free is one kind of error, known as a false negative. It happens whenever you fail to identify the risk that an individual poses.</p>
+  <p>Incarcerating Luke Skywalker, on the other hand, would be a false positive. This is when the algorithm incorrectly identifies someone as a high-risk individual.</p>
+  <p>These two kinds of error, false positive and false negative, are not unique to recidivism. They’ll crop up repeatedly throughout this book. Any algorithm that aims to classify can be guilty of these mistakes.</p>
 
 * The size of the chunks of time or money or volume we perceive follows a very simple mathematical expression known as Weber’s Law.
-Put simply, Weber’s Law states that the smallest change in a stimulus that can be perceived, the so-called ‘Just Noticeable Difference’, is proportional to the initial stimulus. Unsurprisingly, this discovery has also been exploited by marketers. They know exactly how much they can get away with shrinking a chocolate bar before customers notice, or precisely how much they can nudge up the price of an item before you’ll think it’s worth shopping around.
+  <p>Put simply, Weber’s Law states that the smallest change in a stimulus that can be perceived, the so-called ‘Just Noticeable Difference’, is proportional to the initial stimulus. Unsurprisingly, this discovery has also been exploited by marketers. They know exactly how much they can get away with shrinking a chocolate bar before customers notice, or precisely how much they can nudge up the price of an item before you’ll think it’s worth shopping around.</p>
 
 * But it’s not enough to simply point at what’s wrong with the algorithm. The choice isn’t between a flawed algorithm and some imaginary perfect system. The only fair comparison to make is between the algorithm and what we’d be left with in its absence.
 
