@@ -130,7 +130,8 @@ module.exports = function(eleventyConfig) {
   let options = {
     html: true, // Enable HTML tags in source
     breaks: true,  // Convert '\n' in paragraphs into <br>
-    linkify: true // Autoconvert URL-like text to links
+    linkify: true, // Autoconvert URL-like text to links
+		typographer: true // Enable smart quotes and ©, etc.
   };
   
   // configure the library with options
