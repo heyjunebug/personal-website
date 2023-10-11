@@ -10,7 +10,7 @@ title: Tags
 {% for tag in collections.all | getAllTags | filterTagList | sort(false, false, tag) %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<li>
-		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a> ({{ collections[tag].length }})
+		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a> <sup>{{ collections[tag].length }}</sup>
 	</li>
 {% endfor %}
 </ul>
