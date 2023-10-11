@@ -114,14 +114,14 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Add nbsp between the last two words of some text
-	eleventyConfig.addFilter("addNbsp", (str) => {
-		if (!str) {
-			return;
-		}
-		let title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
-		title = title.replace(/"(.*)"/g, '\\"$1\\"');
-		return title;
-	});
+	// eleventyConfig.addFilter("addNbsp", (str) => {
+	// 	if (!str) {
+	// 		return;
+	// 	}
+	// 	let title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
+	// 	title = title.replace(/"(.*)"/g, '\\"$1\\"');
+	// 	return title;
+	// });
 
 	// set markdown footnote processor
   let markdownIt = require("markdown-it");

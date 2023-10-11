@@ -1,10 +1,10 @@
 {% if nextPost or previousPost %}
   <ul class="links-nextprev">
     {% if previousPost %}
-      <li>← Older: <a href="{{ previousPost.url }}">{{ previousPost.data.title | addNbsp | safe }}</a></li>
+      <li>← Older: <a href="{{ previousPost.url }}">{{ previousPost.data.title | safe }}</a></li>
     {% endif %}
     {% if nextPost %}
-      <li>Newer: <a href="{{ nextPost.url }}">{{ nextPost.data.title | addNbsp | safe }}</a> →</li>
+      <li>Newer: <a href="{{ nextPost.url }}">{{ nextPost.data.title | safe }}</a> →</li>
     {% endif %}
   </ul>
 {% endif %}
