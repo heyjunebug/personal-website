@@ -1,7 +1,7 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "8.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"name": "personal-website",
+	"version": "1.0.0",
+	"description": "My personal website and portfolio.",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
@@ -12,12 +12,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "git://github.com/heyjunebug/personal-website.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Shou June Lin Umfress",
+		"email": "june@fascianistas.com",
+		"url": "https://heyjunebug.com/"
 	},
 	"license": "MIT",
 	"engines": {
@@ -28,9 +28,9 @@
 		"url": "https://opencollective.com/11ty"
 	},
 	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+		"url": "https://github.com/heyjunebug/personal-website/issues"
 	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"homepage": "https://github.com/heyjunebug/personal-website#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-img": "^3.1.1",
