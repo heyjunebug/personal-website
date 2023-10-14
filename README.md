@@ -5,3 +5,22 @@
 Hi! I’m June. 👋🏼
 
 This site started with [11ty/eleventy-base-blog](https://github.com/11ty/eleventy-base-blog). I developed the site locally on my MacBook Pro for a couple of months (averaging about eight hours a week) before uploading anything to GitHub.
+
+## Getting started
+
+Run:
+
+```
+npm install
+```
+
+To run the dev environment:
+
+```
+npm start
+```
+
+To build for production:
+```
+npm run build
+```
