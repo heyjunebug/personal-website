@@ -343,7 +343,7 @@ p.metadata {
 }
 
 /* Adjustments for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	body {
 		font-size: 0.925rem;
 	}
@@ -376,7 +376,7 @@ p.metadata {
 		margin-top: 2em;
 	}
 }
-@media (max-width: 900px) {
+@media (max-width: 720px) {
 	body {
 		font-size: 0.975rem;
 	}

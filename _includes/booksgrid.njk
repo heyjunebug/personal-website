@@ -1,5 +1,5 @@
 {% css %}{% include "public/css/bookgrid.css" %}{% endcss %}
-{% css %}.booklist { counter-reset: start-from {{ (booklistCounter or booklist.length) + 1 }} }{% endcss %}
+{% if page.url == "/books/" %}{% css %}.booklist-item {  margin-bottom: 2rem; & p { margin: 0; }}{% endcss %}{% endif %}
 
 <ol reversed class="booklist book-container">
 {% for post in postslist | reverse %}
@@ -13,19 +13,19 @@
 				/>
 				{% endif %}
 				{% if post.data.title %}
-				{{ post.data.title }}
-				{% else %}
-				<code>{{ post.url }}</code>
+				<span {% if page.url == "/" %}class="visually-hidden"{% endif %}>{{ post.data.title }}</span>
 				{% endif %}
 			</a>
-		{% if post.data.excerpt %}
-			<p class="postlist-excerpt">
-				{{ post.data.excerpt | safe }}
-			</p>
-		{% endif %}
+		{% if page.url == "/books/" %}
+			{% if post.data.excerpt %}
+				<p class="postlist-excerpt">
+					{{ post.data.excerpt | safe }}
+				</p>
+			{% endif %}
 			<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">
 			{{ post.date | readableDate("LLLL yyyy") }}
 			</time>
+		{% endif %}
 		</li>
 {% endfor %}
 </ol>
