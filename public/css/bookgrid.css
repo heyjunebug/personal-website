@@ -34,7 +34,7 @@
 	letter-spacing: 0.025em; */
 }
 
-ol li {
+ol li.book {
 	max-width: 32%;
 }
 
@@ -49,7 +49,7 @@ li img {
 }
 
 @media (max-width: 900px) {
-	ol li {
+	ol li.book {
 		min-width: 49%;
 	}
 	.book-container {
@@ -61,7 +61,7 @@ li img {
 	.book-container {
 		display: block;
 	}
-	ol li {
+	ol li.book {
 		min-width: 100%;
 	}
 }
