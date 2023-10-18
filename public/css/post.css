@@ -1,40 +1,20 @@
-/* Portfolio Images: Accordion */
-.accordion {
+/* Portfolio Images: Carousel */
+
+ul.carousel {
+	display: flex;
+	list-style: none;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+}
+
+.carousel li {
+	display: flex;
+	flex-basis: auto;
+	flex-shrink: 0;
+	scroll-snap-align: start;
 	width: 100%;
-	text-align: left;
-	padding: 1rem 1.5rem;
-	border: var(--border);
-	border-color: var(--color-gray-90);
-	color: var(--color-gray-90);
-	&:hover {
-		background-color: var(--color-gray-90);
-		color: var(--color-gray-20);
-	}
-}
-.accordion__label {
-	cursor: pointer;
-	transition: white 0.1s;
-	position: relative;
-	text-transform: uppercase;
-	font-family: var(--font-family-geo);
-	font-size: 0.675em;
-	letter-spacing: 0.125em;
-}
-.accordion__input {
-	display: none;
-}
-.accordion__input:checked ~ .img-container {
-	display: block;
-}
-.img-container {
-	padding-top: 1rem;
-	display: none;
-	overflow: hidden;
-	& > picture > img {
-		margin-bottom: 1rem;
-	}
-	& > picture:last-child > img {
-		margin-bottom: 0;
+	& picture img {
+		height: 100%;
 	}
 }
 

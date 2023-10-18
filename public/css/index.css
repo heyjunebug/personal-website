@@ -21,7 +21,7 @@ html {
 img {
 	width: 100%;
 	height: 100%;
-	object-fit: contain;
+	object-fit: scale-down;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	&:hover {
@@ -47,6 +47,7 @@ ul, ol {
 	margin-inline-start: 0;
 	margin-inline-end: 0;
 	margin: 0;
+	padding-inline-start: 0;
 }
 
 /* Typography: Paragraphs and Headings */
