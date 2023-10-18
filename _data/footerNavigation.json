@@ -14,7 +14,7 @@
 		},
     {
 			"text": "RSS",
-			"url": "/feed/feed.xml"
+			"url": "/blog/feed.xml"
 		},
 		{
 			"text": "Colophon",
