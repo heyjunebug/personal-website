@@ -135,4 +135,13 @@ This site implements [Modern Font Stacks](https://modernfontstacks.com/) for the
 
 ### Website Changelog
 
+* **2023-10-04**: I hated the sticky header... so I got rid of it. I redesigned the header and footer, moving all the navigation links down to the footer. I wanted to make most of the site available from anywhere, so this seemed like the best solution. We—as citizens of the web—seem to accept long footers, but not long headers, so I leaned in.
+<div class="rounded">
+  {% image "../img/snapshots/2023-10-04-website-snapshot.png", "Screenshot of the website taken on October 4, 2023 showing a link that jumps straight to the footer navigation." %}
+  {% image "../img/snapshots/2023-10-04-website-footer-snapshot.png", "Screenshot of the website footer taken on October 4, 2023 showing two columns of links available to navigate the site." %}
+</div>
+
 * **2023-09-19**: Launched the “good enough” version, i.e. the first draft.
+<div class="rounded">
+  {% image "../img/snapshots/2023-09-20-website-snapshot.png", "Screenshot of the website taken on September 20, 2023 showing a sticky navigation bar at the top of the site." %}
+</div>
