@@ -22,3 +22,11 @@
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
+
+[[redirects]]
+  from = "/feed/feed.xml"
+  to = "/blog/feed.xml"
+
+[[redirects]]
+  from = "/feed/feed.json"
+  to = "/blog/feed.json"
