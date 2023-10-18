@@ -160,10 +160,12 @@ header {
 }
 .logo {
 	max-width: 60px;
-	filter: drop-shadow(0 0.125rem 0.25rem var(--color-gray-90));
+	-webkit-filter: grayscale(100%) drop-shadow(0 0.125rem 0.25rem var(--color-gray-90)); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%) drop-shadow(0 0.125rem 0.25rem var(--color-gray-90));
 	z-index: 1;
 	&:hover {
-		filter: drop-shadow(0 0.125rem 0.625rem var(--color-gray-90));
+		-webkit-filter: grayscale(0%) drop-shadow(0 0.125rem 0.5rem var(--color-gray-90));
+		filter: grayscale(0%) drop-shadow(0 0.125rem 0.5rem var(--color-gray-90));
 	}
 }
 .home-link:link:not(:hover) {
@@ -341,7 +343,7 @@ p.metadata {
 }
 
 /* Adjustments for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	body {
 		font-size: 0.925rem;
 	}
@@ -374,7 +376,7 @@ p.metadata {
 		margin-top: 2em;
 	}
 }
-@media (max-width: 900px) {
+@media (max-width: 720px) {
 	body {
 		font-size: 0.975rem;
 	}

@@ -2,8 +2,8 @@
 title: My Life’s “Big Bang”
 date: 2023-10-11
 tags: 
+  - personal
   - challenges
-  - writing
 draft: false
 ---
 

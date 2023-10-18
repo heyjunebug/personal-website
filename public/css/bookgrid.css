@@ -4,7 +4,8 @@
 	align-items: flex-start;
 	flex-wrap: wrap;
 	column-gap: 2%;
-	row-gap: 2rem;
+	/* row-gap: 2rem; */
+	margin-top: 2.5rem;
 }
 
 /* .book {
@@ -14,11 +15,6 @@
 .booklist {
 	list-style: none;
 	padding: 0;
-}
-
-.booklist-item {
-	/* counter-increment: start-from -1; */
-	margin-top: 1.5rem;
 }
 
 .booklist-item:before {
@@ -34,34 +30,40 @@
 	letter-spacing: 0.025em; */
 }
 
-ol li {
+ol li.book {
 	max-width: 32%;
 }
 
 li img {
-	aspect-ratio: 5 / 7;
+	aspect-ratio: 2 / 3;
 	object-fit: cover;
 	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	height: 20rem;
-	width: 100%;
+	/* margin-bottom: 0.5rem; */
+	min-height: 12rem;
+	/* width: 100%; */
 	flex-grow: 1;
 }
 
-@media (max-width: 900px) {
-	ol li {
+@media (max-width: 720px) {
+	ol li.book {
 		min-width: 49%;
+		& img {
+			aspect-ratio: 1 / 1;
+		}
 	}
 	.book-container {
 		gap: 2%;
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	.book-container {
 		display: block;
 	}
-	ol li {
+	ol li.book {
 		min-width: 100%;
+		& img {
+			aspect-ratio: 3 / 2;
+		}
 	}
 }
