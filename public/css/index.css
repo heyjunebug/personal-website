@@ -268,9 +268,6 @@ p.metadata {
 .postlist-date {
 	word-spacing: -0.5px;
 }
-.postlist-excerpt {
-	text-wrap: balance;
-}
 .postlist-metadata {
 	list-style-type: none;
 	padding-left: 0;
