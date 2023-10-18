@@ -38,13 +38,13 @@ I don’t believe in having free (or spare) time. I invest my time in the follow
 ## Principles that guide my work^[These principles ~~probably~~ also apply to how I live my life, too.]
 
 1. ### Be as clear and friendly as you can be.
-  <p class="indent">When we make anything for people, we want to foster long-term relationships. These relationships can only be built upon mutual trust and respect. This isn’t the time and place to show off your editorial or design prowess. This is the time to be inclusive and authentic.</p>
+  When we make anything for people, we want to foster long-term relationships. These relationships can only be built upon mutual trust and respect. This isn’t the time and place to show off your editorial or design prowess. This is the time to be inclusive and authentic.
 
 2. ### Share knowledge freely. The harder it was to learn, the more important it is to share.
-  <p class="indent">When we share stuff we’ve learned, we can stand out from the wealth of available information by sharing the hardest-to-learn and hardest-to-master stuff. Useful information always answers these two questions: “why does this matter to me?” and “what should I do with that information?”</p>
+  When we share stuff we’ve learned, we can stand out from the wealth of available information by sharing the hardest-to-learn and hardest-to-master stuff. Useful information always answers these two questions: “why does this matter to me?” and “what should I do with that information?”
 
 3. ### Make stuff for *people*. What you make should be simple and functional.
-  <p class="indent">When we create anything, we want to offer it in its most appropriate visual form. Visual materials—anything that’s been written, photographed, or filmed—are meant for “an audience.” Remember that audiences are (mostly) made up of people. Make stuff for people (and for yourself, but you’re a person, too). Make only what’s necessary, and make sure it works.</p>
+  When we create anything, we want to offer it in its most appropriate visual form. Visual materials—anything that’s been written, photographed, or filmed—are meant for “an audience.” Remember that audiences are (mostly) made up of people. Make stuff for people (and for yourself, but you’re a person, too). Make only what’s necessary, and make sure it works.
 
 <hr />
 

@@ -39,10 +39,6 @@ p:first-of-type
 	margin-top: 0;
 }
 
-.indent {
-	margin-left: 2.25rem;
-}
-
 blockquote {
 	border-left: var(--border);
 	border-color: var(--text-color-link);
