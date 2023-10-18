@@ -1,20 +1,25 @@
 /* Portfolio Images: Carousel */
 
-ul.carousel {
+.carousel {
 	display: flex;
 	list-style: none;
-	overflow: auto;
+	overflow-x: scroll;
+	overflow-y: hidden;
 	scroll-snap-type: x mandatory;
+	background: var(--color-gray-90);
 }
 
 .carousel li {
-	display: flex;
 	flex-basis: auto;
 	flex-shrink: 0;
 	scroll-snap-align: start;
 	width: 100%;
-	& picture img {
-		height: 100%;
+	text-align: center;
+		& picture img {
+		max-height: 36rem;
+		max-width: 85%;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 }
 
