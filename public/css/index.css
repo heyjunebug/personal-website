@@ -198,7 +198,7 @@ footer {
 	padding-left: 1rem;
 	padding-bottom: 6rem;
 	margin-top: 4rem;
-	font-size: 0.75rem;
+	font-size: 0.925rem;
 	font-family: var(--font-family-monospace);
 	& p:first-child {
 		margin-top: 2rem;
@@ -211,7 +211,7 @@ footer {
 	& nav div {
 		display: block;
 		min-width: 48.5%;
-		font-size: 0.825rem;
+		font-size: 0.875rem;
 		& li {
 			padding-bottom: 0.125rem;
 		}
