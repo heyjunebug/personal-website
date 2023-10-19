@@ -1,5 +1,5 @@
 ---
-title: Practice for Practice’s Sake
+title: What Work-Life Balance?
 date: 2018-08-20
 tags: 
   - career

@@ -14,6 +14,7 @@ Today I’ve noticed that it’s difficult to bring awareness to anything withou
 It can really be difficult for me to think neutrally. Questions arise almost instantaneously, essentially the moment I set a thought or an idea down on paper. 
 - Am I going to regret this? 
 - Is this really true? 
+
 No wonder I’ve felt crippled by the act of inscribing MY words. It’s like I’m trying to listen to the softest, quietest voice in a crowd of skeptical, nitpicky people.
 
 I think years of listening to these voices in my head and reciting what they’ve said to me about myself and other people has confused and clouded my thoughts and my delivery of them. 
