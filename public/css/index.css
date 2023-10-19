@@ -200,6 +200,9 @@ footer {
 	margin-top: 4rem;
 	font-size: 0.925rem;
 	font-family: var(--font-family-monospace);
+	& p {
+		font-size: 0.875em;
+	}
 	& p:first-child {
 		margin-top: 2rem;
 		margin-bottom: 0;
