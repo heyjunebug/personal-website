@@ -149,7 +149,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 ### 10.1 Read with a Pen in Hand
 <div class="highlights">
 
-* The outcome of reading with a pen in the hand is not possible to anticipate either, and here, too, the idea is not to copy, but to have a meaningful dialogue with the
+* The outcome of reading with a pen in the hand is not possible to anticipate either, and here, too, the idea is not to copy, but to have a meaningful dialogue with the texts we read.
 
 * That often means to reflect as much on what is not mentioned as what is mentioned. 
 </div>
