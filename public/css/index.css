@@ -88,7 +88,36 @@ a[href]:active {
 }
 
 .jump-links {
+		cursor: pointer;
+	position: relative;
+	padding-left: calc(1.75rem + .25rem);
+	font-family: var(--font-family-monospace);
+	font-size: 0.875rem;
 	font-weight: 700;
+}
+
+.up:before, .down:before {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color: var(--color-gray-90);
+	color: var(--background-color);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	font-family: var(--font-family-monospace);
+}
+
+.down:before {
+	content: "↓";
+}
+
+.up:before {
+	content: "↑";
 }
 
 a:not(
@@ -199,12 +228,15 @@ footer {
 	padding-top: 0.75rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
-	padding-bottom: 6rem;
-	margin-top: 4rem;
+	padding-bottom: 4rem;
+	margin-block-start: 4rem;
 	font-size: 0.925rem;
 	font-family: var(--font-family-monospace);
-	& p {
+	& .copyright, & .jump-links {
 		font-size: 0.875em;
+	}
+	.copyright {
+		margin-block: 2rem;
 	}
 	& p:first-child {
 		margin-top: 2rem;
@@ -318,7 +350,6 @@ p.metadata {
 	margin-block-start: 0;
 	margin-block-end: 0;
 	padding-inline-start: 0;
-	margin-top: 1.5rem;
 	line-height: 1.675;
 	column-count: 2;
 }
@@ -380,8 +411,8 @@ p.metadata {
 	.postlist-metadata {
 		margin-top: 0;
 	}
-	.copyright {
-		margin-top: 2em;
+	.wayfinding {
+		margin-block: 2rem;
 	}
 }
 @media (max-width: 720px) {
