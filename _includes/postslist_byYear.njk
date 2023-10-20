@@ -7,7 +7,7 @@
 {% set currentYear = "" %}
 <div class="accordion-container">
 	<details>
-		<summary>Jump to year</summary>
+		<summary>Jump to a specific year</summary>
 		<div>
 			<ol class="tags-list">
 			{% for post in postslist | reverse %}	
@@ -21,7 +21,7 @@
 		</div>
 	</details>
 	<details>
-		<summary>See all tags</summary>
+		<summary>Tags in alphabetical order</summary>
 		<div>
 			<ul class="tags-list">
 				{% for tag in collections.all | getAllTags | filterTagList | sort(false, false, tag) %}
