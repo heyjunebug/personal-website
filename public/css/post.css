@@ -25,6 +25,76 @@
 	}
 }
 
+/* Archive: Accordions */
+.accordion-container {
+	margin-block-end: 4rem;
+}
+
+details div {
+	border-left: 1.5px solid var(--color-gray-90);
+	border-right: 1.5px solid var(--color-gray-90);
+	border-bottom: 1.5px solid var(--color-gray-90);
+	padding-inline-start: 2.75rem;
+	padding-inline-end: 0.5rem;
+	padding-block: 1.5rem 2rem;
+}
+
+details div > * + * {
+	margin-top: 1.5em;
+}
+
+details + details {
+	margin-top: .75rem;
+}
+
+summary {
+	list-style: none;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary {
+	border: 1.5px solid var(--color-gray-90);
+	padding: .75rem 1rem;
+	cursor: pointer;
+	position: relative;
+	padding-left: calc(1.75rem + .5rem + .5rem);
+	font-family: var(--font-family-monospace);
+	font-size: 0.875rem;
+}
+
+summary:before {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: .75rem;
+	content: "+";
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color: var(--color-gray-90);
+	color: var(--background-color);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	font-family: var(--font-family-monospace);
+}
+
+details[open] summary {
+	background-color: var(--background-color);
+}
+
+details[open] summary:before {
+	content: "-";
+	font-family: var(--font-family-monospace);
+}
+
+summary:hover {
+	background-color: var(--color-gray-20);
+}
+
 /* Colophon Rounded Website Screenshots */
 .rounded picture img {
 	border-radius: 0.5rem;
