@@ -98,7 +98,7 @@ a:not(
 	[href*="heyjunebug.com"]
 )::after {
   content: "↗";
-  margin-inline-start: 0.5ch;
+  margin-inline-start: 0.25ch;
 	font-family: var(--font-family-monospace);
 }
 
