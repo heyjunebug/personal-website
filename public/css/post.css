@@ -153,27 +153,76 @@ ul li {
 }
 
 .links-nextprev {
-	list-style: none;
-	border-top: var(--border);
-	border-color: var(--text-color);
-	margin-top: 2em;
-	padding: 0.5em 0;
+	margin-block-start: 2rem;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	& li {
-		inline-size: 48.5%;
-		text-wrap: balance;
-		&:only-child {
-			inline-size: 100%;
-		}
-		&:nth-child(2) {
-			text-align: end;
-		}
-	}
+	align-items: stretch;
 }
 
-.links-nextprev-end li:only-child {
-	display: block;
+.link-container {
+	flex-basis: -moz-available;
+	flex-shrink: 1;
+	display: flex;
+	flex-direction: column;
+	border-top: 1.5px solid var(--color-gray-90);
+	border-bottom: 1.5px solid var(--color-gray-90);
+	border-left: 1.5px solid var(--color-gray-90);
+	padding-inline: 1rem;
+	padding-block: .75rem 1rem;
+}
+
+.link-container:last-child {
+	border-right: 1.5px solid var(--color-gray-90);
+}
+
+.link-container:hover {
+	background-color: var(--color-gray-20);
+}
+
+.link-container span {
+	font-family: var(--font-family-monospace);
+	font-weight: 700;
+	font-size: 0.875rem;
+	margin-block-end: .5rem;
+}
+
+.link-container p {
+	margin-block: 0;	
+}
+
+.prev, .prev + * {
+	text-align: start;
+}
+
+.next, .next + * {
+	text-align: end;
+}
+
+.prev::before, .next::after {
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color: var(--color-gray-90);
+	color: var(--background-color);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	font-family: var(--font-family-monospace);
+}
+
+.prev.oops::before, .next.oops::after {
+	content: "⊘";
+}
+
+.prev::before {
+	content: "←";
+	margin-inline-end: .5rem;
+}
+
+.next::after {
+	content: "→";
+	margin-inline-start: .5rem;
 }
 
 /* Book Highlights */
