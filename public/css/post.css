@@ -173,7 +173,13 @@ article > h4 {
 	margin-block: 0 0.75rem;
 }
 
-article > ul {
+article > h4 {
+	max-width: 48ch;
+	margin-inline: auto;
+}
+
+article > ul,
+article > ol {
 	max-width: 48ch;
 	margin-bottom: 1rem;
 	margin-inline: auto;
@@ -360,6 +366,8 @@ hr {
 }
 
 .footnotes {
+	max-width: 56ch;
+	margin-inline: auto;
 	font-size: 0.875em;
 	& p {
 		line-height: 1.4;
