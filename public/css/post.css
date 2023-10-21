@@ -100,7 +100,14 @@ details[open] summary:before {
 }
 
 summary:hover {
-	background-color: var(--color-gray-20);
+	--dot-bg: var(--background-color);
+  --dot-color: var(--color-gray-20);
+  --dot-size: 1.5px;
+  --dot-space: 2px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
 }
 
 /* Colophon Rounded Website Screenshots */
@@ -266,7 +273,14 @@ ul li {
 }
 
 .link-container:hover {
-	background-color: var(--color-gray-20);
+	--dot-bg: var(--background-color);
+  --dot-color: var(--color-gray-20);
+  --dot-size: 1.5px;
+  --dot-space: 2px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
 }
 
 .link-container span {

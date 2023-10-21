@@ -230,6 +230,17 @@ main {
 	background: var(--color-gray-90);
 }
 
+.heading-container {
+	--dot-bg: var(--background-color);
+  --dot-color: var(--color-gray-20);
+  --dot-size: 1.5px;
+  --dot-space: 2px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+}
+
 .metadata-container {
 	padding-inline: 1rem;
 	padding-block: 0.5rem;
@@ -346,6 +357,14 @@ p.metadata {
 	text-align: right;
 	border: var(--solid-border);
 	margin-block: 0 0.75rem;
+	--dot-bg: var(--background-color);
+  --dot-color: var(--color-gray-20);
+  --dot-size: 1.5px;
+  --dot-space: 2px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
 }
 .postlist-date {
 	word-spacing: -0.075rem;
