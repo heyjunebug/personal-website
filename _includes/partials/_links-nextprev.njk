@@ -6,7 +6,7 @@
       <a href="{{ previousPost.url }}">{{ previousPost.data.title | safe }}</a>
       {% else %}
       <span class="prev oops">The Beginning</span>
-      <p>There’s nothing else to show you.</p>
+      <p>Sorry, there’s nothing left to show you.</p>
       {% endif %}
     </div>
     <div class="link-container">
@@ -15,7 +15,7 @@
       <a href="{{ nextPost.url }}">{{ nextPost.data.title | safe }}</a>
       {% else %}
       <span class="next oops">The End</span>
-      <p>There’s nothing else to show you.</p>
+      <p>There’s nothing else to show you <em>yet</em>.</p>
       {% endif %}
     </div>
   </div>
