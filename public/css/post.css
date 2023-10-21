@@ -1,5 +1,6 @@
 article img {
 	height: 100%;
+	/* object-fit: initial; */
 }
 
 /* Portfolio Images: Carousel */
@@ -132,6 +133,8 @@ article > p:first-child {
 	font-size: 1.25rem;
 	font-style: italic;
 	line-height: 1.4;
+	border-bottom: var(--dotted-border);
+	padding-block-end: 1rem;
 }
 
 hr {
@@ -334,8 +337,8 @@ ul li {
 	padding: 0;
 		& li::before {
 			content: "☞";
-			width: 2rem;
-			height: 1.5rem;
+			width: 1.625rem;
+			height: 1.325rem;
 			background-color: var(--color-gray-90);
 			color: var(--background-color);
 			display: inline-flex;
@@ -355,6 +358,21 @@ ul li {
 		}	
 	}
 
+.deeper-icon {
+	display: inline-block;
+	&::before {
+		content: "☞";
+		width: 1.625rem;
+		height: 1.325rem;
+		background-color: var(--color-gray-90);
+		color: var(--background-color);
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		margin-inline-end: .5rem;
+	}
+}
+	
 /* In-line References & Footnotes */
 
 sup {
