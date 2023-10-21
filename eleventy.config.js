@@ -145,7 +145,7 @@ module.exports = function(eleventyConfig) {
 			permalink: markdownItAnchor.permalink.ariaHidden({
 				placement: "after",
 				class: "header-anchor",
-				symbol: "#",
+				symbol: "🔗",
 				ariaHidden: false,
 			}),
 			level: [1,2,3,4],
