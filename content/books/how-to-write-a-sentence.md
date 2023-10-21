@@ -62,7 +62,8 @@ Now, consider, what will your last sentence be? Quitting your job? Leaving this 
 > What is my last sentence if the trajectory of my current construction of self and identity doesn’t change? What do I want my last sentence to be?
 
 Then, the follow-up questions:
-Is there a gap between what I think my last sentence will be and what I hope what my last sentence will be? What can I do to close the gap?
+
+> Is there a gap between what I think my last sentence will be and what I hope what my last sentence will be? What can I do to close the gap?
 
 Reading material across many genres (i.e. interdisciplinary studies) can help us understand and construct the self. I read in order to explore/find/create meaning in life, and a book about sentences applies to both writing and living my life.
 

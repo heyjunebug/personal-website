@@ -9,7 +9,31 @@ layout: layouts/post.njk
 <!-- excerpt -->
 
 <h2>Introduction</h2>
-<h3>School’s Out, Forever</h3>
+<div class="accordion-container">
+  <details>
+    <summary>
+    tl;dr: Years in Review
+    </summary>
+    <div>
+    <ul>
+      <li>improved my undergrad GPA from sub-2.0 freshman year to 3.2 by graduation</li>
+      <li>worked part-time while attending grad school full-time</li>
+      <li>designed my first printed publication</li>
+      <li>learned to teach rock climbing technique and safety</li>
+    </ul>
+    </div>
+  </details>
+  <details>
+    <summary>
+    Lesson Learned
+    </summary>
+    <div>
+    <p>Failure is an opportunity to grow.</p>
+    </div>
+  </details>
+</div>
+
+<h3 class="heading-container inverted">School’s Out, Forever</h3>
 
 I failed O-Chem twice. I was an arrogant teenager, and thought I was smart enough to get away with poor attendance and even poorer study habits.
 
@@ -56,13 +80,3 @@ The creative director of the ad agency recommended me for a freelance design rol
 <li>{% image "./img/before-2013/AAU_Lookbook_final_thumbnails_Page_12.jpg", "Thumbnails of the ADDY-winning Academy of Art University prospectus" %}</li>
 <li>{% image "./img/before-2013/AAU_Lookbook_final_thumbnails_Page_13.jpg", "Thumbnails of the ADDY-winning Academy of Art University prospectus" %}</li>
 </ul>
-
-### tl;dr: Years in Review
-
-* improved my undergrad GPA from sub-2.0 freshman year to 3.2 by graduation
-* worked part-time while attending grad school full-time
-* designed my first printed publication
-* learned to teach rock climbing technique and safety
-
-### Lesson Learned
-Failure is an opportunity to grow.

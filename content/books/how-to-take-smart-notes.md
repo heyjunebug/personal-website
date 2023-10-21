@@ -16,7 +16,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 
 ## Highlights
 
-### Introduction
+#### Introduction
 <div class="highlights">
 
 * Writing is not what follows research, learning or studying, it is the medium of all this work. And maybe that is the reason why we rarely think about this writing, the everyday writing, the note-taking and draft-making. Like breathing, it is vital to what we do, but because we do it constantly, it escapes our attention.
@@ -32,7 +32,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * The good news is that we wouldn’t be able to do much about our IQ anyway, while it seems to be within our control to have more self-discipline with a little bit of willpower. The bad news is that we do not have this kind of control over ourselves.
 </div>
 
-### 1 Everything You Need to Know
+#### 1 Everything You Need to Know
 <div class="highlights">
 
 * We know today that self-control and self-discipline have much more to do with our environment than with ourselves (cf. Thaler, 2015, ch. 2) – and the environment can be changed.
@@ -40,7 +40,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * Having a meaningful and well-defined task beats willpower every time. Not having willpower, but not having to use willpower indicates that you set yourself up for success. This is where the organisation of writing and note-taking comes into play.
 </div>
 
-### 1.1 Good Solutions are Simple — and Unexpected
+#### 1.1 Good Solutions are Simple — and Unexpected
 <div class="highlights">
 
 * A good structure is something you can trust. It relieves you from the burden of remembering and keeping track of everything. If you can trust the system, you can let go of the attempt to hold everything together in your head and you can start focusing on what is important: The content, the argument and the ideas.
@@ -66,7 +66,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * Writing that aims at insight must therefore be organised in a much more open manner. Writing is not a linear process. We constantly have to jump back and forth between different tasks.
 </div>
 
-### 1.2 The Slip-Box
+#### 1.2 The Slip-Box
 <div class="highlights">
 
 * Only if you can trust your system, only if you really know that everything will be taken care of, will your brain let go and let you focus on the task at hand. 
@@ -76,7 +76,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * It is about having the right tools and knowing how to use them – and very few understand that you need both. 
 </div>
 
-### 2.1 Writing a Paper Step by Step
+#### 2.1 Writing a Paper Step by Step
 <div class="highlights">
 
 * Writing these notes is also not the main work. Thinking is. Reading is. Understanding and coming up with ideas is. And this is how it is supposed to be. The notes are just the tangible outcome of it.
@@ -90,7 +90,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * Imagine if we went through life learning only what we planned to learn or being explicitly taught. I doubt we would have even learned to speak. Each added bit of information, filtered only by our interest, is a contribution to our future understanding, thinking and writing. And the best ideas are usually the ones we haven’t anticipated anyway. 
 </div>
 
-### 3.1 The Tool Box
+#### 3.1 The Tool Box
 <div class="highlights">
 
 * Focus on the essentials, don’t complicate things unnecessarily.
@@ -104,7 +104,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * Everybody knows how to handle a flute (you blow into one end and press your fingers on the holes according to the notes you are playing), but nobody would try it out once and then judge the instrument on what they hear.
 </div>
 
-### 6 Simplicity is Paramount
+#### 6 Simplicity is Paramount
 <div class="highlights">
 
 * In this understanding, the written work represents a preceded performance, namely learning, understanding and the ability to analyse other texts critically. By writing, students demonstrate what they have learned, show their ability to think critically and ability to develop ideas.This understanding is related to the idea that students prepare for independent research. In this mindset, the writing of a paper is just another skill to be learned. It is compartmentalised from the other tasks – it is seen as one task among others.
@@ -116,7 +116,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * Even if you decide never to write a single line of a manuscript, you will improve your reading, thinking and other intellectual skills just by doing everything as if nothing counts other than writing.
 </div>
 
-### 7 Nobody Ever Starts From Scratch
+#### 7 Nobody Ever Starts From Scratch
 <div class="highlights">
 
 * In the old system, the question is: Under which topic do I store this note? In the new system, the question is: In which context will I want to stumble upon it again?
@@ -126,7 +126,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * ...the threshold to write an idea down has to be as low as possible, but it is equally crucial to elaborate on them within a day or two.
 </div>
 
-### 8 Let the Work Carry You Forward
+#### 8 Let the Work Carry You Forward
 <div class="highlights">
 
 * Feedback loops are not only crucial for the dynamics of motivation, but also the key element to any learning process. Nothing motivates us more than the experience of becoming better at what we do. And the only chance to improve in something is getting timely and concrete feedback. Seeking feedback, not avoiding it, is the first virtue of anyone who wants to learn, or in the more general terms of psychologist Carol Dweck, to grow. Dweck shows convincingly that the most reliable predictor for long-term success is having a “growth mindset.” To actively seek and welcome feedback, be it positive or negative, is one of the most important factors for success (and happiness) in the long run.
@@ -138,7 +138,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * The ability to express understanding in one’s own words is a fundamental competency for everyone who writes – and only by doing it with the chance of realizing our lack of understanding can we become better at it. But the better we become, the easier and quicker we can make notes, which again increases the number of learning experiences. The same applies to the crucial ability to distinguish the important bits of a text from the less important ones: the better we become at it, the more effective our reading will become, the more we can read, the more we will learn. We will enter a beautiful, virtuous circle of competency. You cannot help but feel motivated by it. 
 </div>
 
-### 9.1 Give Each Task Your Undivided Attention
+#### 9.1 Give Each Task Your Undivided Attention
 <div class="highlights">
 
 * We unfortunately tend to confuse familiarity with skill. 
@@ -146,7 +146,7 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 * The brain doesn't distinguish between an actual finished task and one that is postponed by taking a note.
 </div>
 
-### 10.1 Read with a Pen in Hand
+#### 10.1 Read with a Pen in Hand
 <div class="highlights">
 
 * The outcome of reading with a pen in the hand is not possible to anticipate either, and here, too, the idea is not to copy, but to have a meaningful dialogue with the texts we read.

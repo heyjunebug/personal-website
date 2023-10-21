@@ -17,6 +17,8 @@ On the heels of finishing R.F. Kuang’s “Babel,” I can’t help but draw pa
 
 “Inflamed” feels like an assault on the nervous system, with little to offer any relief as of yet. Its rhetoric is so strong it implies oppression is an insurmountable fact of life and there is little room for hope. So far, the book has layered metaphor upon metaphor seemingly because it can, rather than in service of clearer communication.
 
-After a few chapters, I find myself wishing for two books: (1) a book to explain and describe inflammation, medical, societal, environmental, or otherwise, and (2) a book to suggest what’s to be done about what ails us as individuals, as societies, and as a world. Interspersing the two leaves me feeling emotional—angry, frustrated, and despondent.
+After a few chapters, I find myself wishing for two books: 
+1. a book to explain and describe inflammation, medical, societal, environmental, or otherwise, and 
+2. a book to suggest what’s to be done about what ails us as individuals, as societies, and as a world. Interspersing the two leaves me feeling emotional—angry, frustrated, and despondent.
 
 I still have hope, though, and will invest a few more chapters when my nervous system and my heart allow. I hope the book begins to soothe and turns down the emotional volume, rather than continuing to inflame, or it will lose this sympathetic reader.

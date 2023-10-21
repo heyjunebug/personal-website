@@ -8,8 +8,6 @@ layout: layouts/post.njk
 
 <!-- excerpt -->
 
-## So, what’s new right now?
-
 ### What I’m learning
 For the last couple of months, I have been learning web design. After a long, long run in print design (which continues on), I am finding my way back to talking to computers and trying to coax them into rendering what I see in my mind. I am discovering that while it is frustrating to hunt for missing semicolons (and other troublesome punctuation) in this context,[^1] I appreciate the responsibility and ownership of having misplaced those marks *all on my own*. 
 

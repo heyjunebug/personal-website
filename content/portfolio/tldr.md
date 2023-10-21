@@ -8,7 +8,7 @@ layout: layouts/post.njk
 
 <!-- excerpt -->
 
-## Lessons Learned
+### Lessons Learned
 * Failure is an opportunity to grow.
 * Design is a team sport.
 * Individuals not only contribute to a team’s work product, but also the team’s collective attitude and well-being.
@@ -21,7 +21,7 @@ layout: layouts/post.njk
 * Some periods are for growth and some, for rest.
 * Relationships make the world go round.
 
-## Years in Review
+### Years in Review
 * produced and delivered 129 newspapers
 * taught rock climbing technique and safety
 * found a healthy, effective way to manage chronic, stress-related migraines
