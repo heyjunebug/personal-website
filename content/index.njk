@@ -1,8 +1,8 @@
 ---
 title: Home
 layout: layouts/home.njk
-numberOfLatestPostsToShow: 2
-numberOfLatestBooksToShow: 6
+numberOfLatestPostsToShow: 3
+numberOfLatestBooksToShow: 4
 eleventyNavigation:
   key: Home
   order: 1
@@ -12,7 +12,9 @@ eleventyExcludeFromCollections: false
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<div class="heading-container inverted">
+	<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
+</div>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
@@ -20,20 +22,15 @@ eleventyExcludeFromCollections: false
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<div class="entry">
-	<div class="left"></div>
-	<div class="right">
+<div class="heading-container">
 	<p class="read-more">Read #1 – #{{ morePosts }} in <a href="/blog/">the archive</a>.</p>
-	</div>
 </div>
 {% endif %}
 
 {% set bookCount = collections.books | length %}
 {% set latestBooksCount = bookCount | min(numberOfLatestBooksToShow) %}
 
-<hr />
-
-<h1>Last {{ latestBooksCount }} Book{% if latestBooksCount != 1 %}s{% endif %}</h1>
+<div class="heading-container inverted"><h2>Last {{ latestBooksCount }} Book{% if latestBooksCount != 1 %}s{% endif %}</h2></div>
 
 {% set postslist = collections.books | head(-1 * numberOfLatestBooksToShow) %}
 {% set booklistCounter = bookCount %}
@@ -41,7 +38,7 @@ eleventyExcludeFromCollections: false
 
 {% set moreBooks = bookCount - numberOfLatestBooksToShow %}
 {% if moreBooks > 0 %}
-<div class="entry">
+<div class="heading-container">
 	<p class="read-moreBooks">Read about {{ moreBooks }} more book{% if moreBooks != 1 %}s{% endif %} in <a href="/books/">the library</a>.</p>
 </div>
 {% endif %}

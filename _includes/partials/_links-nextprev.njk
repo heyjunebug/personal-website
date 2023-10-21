@@ -5,8 +5,8 @@
       <span class="prev">Older</span>
       <a href="{{ previousPost.url }}">{{ previousPost.data.title | safe }}</a>
       {% else %}
-      <span class="prev oops">Oops!</span>
-      <p>There’s nothing older.</p>
+      <span class="prev oops">The Beginning</span>
+      <p>There’s nothing else to show you.</p>
       {% endif %}
     </div>
     <div class="link-container">
@@ -14,8 +14,8 @@
       <span class="next">Newer</span>
       <a href="{{ nextPost.url }}">{{ nextPost.data.title | safe }}</a>
       {% else %}
-      <span class="next oops">Oops!</span>
-      <p>There’s nothing newer.</p>
+      <span class="next oops">The End</span>
+      <p>There’s nothing else to show you.</p>
       {% endif %}
     </div>
   </div>

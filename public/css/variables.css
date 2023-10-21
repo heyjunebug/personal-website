@@ -21,7 +21,8 @@
 
 	--syntax-tab-size: 2;
 
-	--border: 2px dotted var(--color-gray-20);
+	--dotted-border: 2px dotted var(--color-gray-20);
+	--solid-border: 1.5px solid var(--color-gray-90);
 }
 
 @media (prefers-color-scheme: dark) {

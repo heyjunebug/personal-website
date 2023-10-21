@@ -7,7 +7,9 @@ layout: layouts/base.njk
 {% css %}{% include "public/css/post.css" %}{% endcss %}
 {% css %}{% include "public/css/message-box.css" %}{% endcss %}
 
-<h1>{{ title | safe }}</h1>
+<div class="heading-container inverted">
+<h2>{{ title | safe }}</h2>
+</div>
 
 {% if draft == true %}
 <div class="message-box">
@@ -16,27 +18,23 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
-<div class="entry">
-	<div class="left">
-	<p class="metadata">
-		Last updated
-		<time class="postlist-date" datetime="{{ page.date | htmlDateString }}">
-		{{ page.date | readableDate("LLLL dd yyyy") }}
-		</time>
-	</p>
+<div class="post-metadata-container">
+	<time class="postlist-date" datetime="{{ page.date | htmlDateString }}">
+		{{ page.date | readableDate("LLL dd yyyy") }}
+	</time>
 	{% if tags %}
-	<p class="metadata">Filed under</p>
-		<ul class="postlist-metadata">
-			{% for tag in tags | filterTagList | sort(false, false, tag) %}
-			{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-			<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}</li>
-			{% endfor %}
-		</ul>
+	<ul class="postlist-metadata">
+		{% for tag in tags | filterTagList | sort(false, false, tag) %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}</li>
+		{% endfor %}
+	</ul>
 	{% endif %}
-	</div>
+</div>
 
-	<div class="right">
+	<article>
 		{{ content | safe }}
+	</article>
 
 		{% if collections.posts %}
 			{% set previousPost = collections.posts | getPreviousCollectionItem %}
@@ -59,18 +57,6 @@ layout: layouts/base.njk
 			{% include 'partials/_links-nextprev.njk' %}
 		{% endif %}
 
-	</div>
-	{# <div class="right">
-		<ul class="post-metadata">
-		<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-		{%- for tag in tags | filterTagList %}
-		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-		<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-		{%- endfor %}
-		</ul>
-	</div> #}
-
-</div>
 
 
 

@@ -1,35 +1,26 @@
 ---
-layout: layouts/base.njk
+layout: layouts/post.njk
 title: Portfolio
 date: 2023-09-29
 draft: true
 eleventyExcludeFromCollections: false
 ---
-<h1>
-  Portfolio
-</h1>
 
-<div class="entry">
-  <div class="left flex-item postlist-metadata">
-    <p class="metadata">
-      Last updated
-      <time class="postlist-date" datetime="{{ page.date | htmlDateString }}">
-      {{ page.date | readableDate("LLLL dd yyyy") }}
-      </time>
-    </p>
-  </div>
-  <div class="right flex-item">
-    <section>
-      <p>I created this to share my design background with you. When I first wrote these pages, I didn’t expect this trek down memory lane tp lead to the startling realization of <em>just</em> how much I’ve learned and how far I’ve come.</p>
-      <blockquote>This page is under construction. Not only is it missing the years 2015–2022, it is also missing implementation of featured images (it’s on my ever-expanding list).</blockquote>
-      <p>These pages are organized in reverse chronological order. They read well enough in either direction.</p>
-    </section>
-    <section>
-      <h2>too long: didn’t read (tl:dr;)</h2>
-      <p>Reflection feeds confidence and sustains motivation.</p>
-    </section>
-  </div>
-</div>
+<article>
+    <p>I created this to share my design background with you. When I first wrote these pages, I didn’t expect this trek down memory lane to lead to the startling realization of <em>just</em> how much I’ve learned and how far I’ve come.</p>
+    <p>These pages are organized in reverse chronological order. They read well enough in either direction.</p>
+    <div class="accordion-container text-width">
+    <details>
+      <summary>
+        too long: didn’t read (tl:dr;)
+      </summary>
+      <div>
+        <p>Reflection feeds confidence and sustains motivation.</p>
+      </div>
+    </details>  
+  </div>  
+</article>
 
+<h3 class="heading-container inverted">Pages</h3>
 {% set postslist = collections.portfolio %}
 {% include "postslist.njk" %}

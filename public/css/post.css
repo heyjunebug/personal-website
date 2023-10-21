@@ -1,5 +1,8 @@
-/* Portfolio Images: Carousel */
+article img {
+	height: 100%;
+}
 
+/* Portfolio Images: Carousel */
 .carousel {
 	display: flex;
 	list-style: none;
@@ -27,7 +30,12 @@
 
 /* Archive: Accordions */
 .accordion-container {
-	margin-block-end: 4rem;
+	margin-block-end: .75rem;
+}
+
+.text-width {
+	max-width: 48ch;
+	margin-inline: auto;
 }
 
 details div {
@@ -109,6 +117,68 @@ summary:hover {
 .postlist-excerpt {
 	margin: 0;
 }
+
+article > p:first-child {
+	margin-block-start: 0.75rem;
+	margin-block-end: 0.75rem;
+	padding-inline: 1rem;
+	font-size: 1.25rem;
+	font-style: italic;
+	line-height: 1.4;
+}
+
+hr {
+	border-bottom: var(--dotted-border);
+	border-color: var(--color-gray-90);
+}
+
+article > p:not(:first-child) {
+	max-width: 48ch;
+	margin-inline: auto;
+	&:has(picture) {
+		max-width: unset;
+		margin-block-end: .75rem;
+	}
+}
+
+article > p > picture img {
+	margin-block-end: 0;
+}
+
+article > #highlights {
+	color: var(--background-color);
+	background: var(--color-gray-90);
+}
+
+article > .highlights {
+	max-width: 48ch;
+	margin-inline: auto;
+	& > h3 {
+		border: var(--solid-border);
+		padding-inline: 1rem;
+		padding-block: .5rem;
+		margin-block-end: .75rem;
+	}
+	& ul li {
+		margin-block: 1rem;
+	}
+}
+
+article > h2, 
+article > h3, 
+article > h4 {
+	border: var(--solid-border);
+	padding-inline: 1rem;
+	padding-block: .5rem;
+	margin-block: 0 0.75rem;
+}
+
+article > ul {
+	max-width: 48ch;
+	margin-bottom: 1rem;
+	margin-inline: auto;
+}
+
 .small-caps {
 	font-weight: 700;
 	text-transform: lowercase;
@@ -116,16 +186,30 @@ summary:hover {
 	letter-spacing: 0.035em;
 }
 
+.post-metadata-container {
+	padding-inline: 1rem;
+	padding-block: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	border: var(--solid-border);
+	& p {
+		display: block;
+	}
+}
+
 p:first-of-type
 :not(.read-more, .read-moreBooks, .date) {
 	margin-top: 0;
 }
 
-blockquote {
-	border-left: var(--border);
+article > blockquote {
+	max-width: 48ch;
+	border-left: var(--dotted-border);
 	border-color: var(--text-color-link);
-  margin-inline-start: 0;
-  margin-inline-end: 0;
+  margin-inline: auto;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-left: 1.5rem;
@@ -228,17 +312,28 @@ ul li {
 .highlights ul {
 	list-style: none;
 	padding: 0;
-	& li {
-		margin-top: 1.5rem;
-		margin-bottom: 1.5rem;
+		& li::before {
+			content: "☞";
+			width: 2rem;
+			height: 1.5rem;
+			background-color: var(--color-gray-90);
+			color: var(--background-color);
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			/* font-family: var(--font-family-monospace); */
+		}
 		& p {
 			margin: 0;
+			&:first-child {
+				display: inline;
+				padding-inline-start: .25rem;				
+			}
 			&:not(:first-child) {
 				text-indent: 1.5rem;
 			}
 		}	
 	}
-}
 
 /* In-line References & Footnotes */
 
@@ -249,7 +344,7 @@ sup {
 
 hr {
 	border: 0;
-	border-top: var(--border);
+	border-top: var(--dotted-border);
 	border-color: var(--text-color);
 	margin-top: 2em;
 	margin-bottom: 1rem;

@@ -1,31 +1,33 @@
 {% css %}{% include "public/css/bookgrid.css" %}{% endcss %}
-{% if page.url == "/books/" %}{% css %}.booklist-item {  margin-bottom: 2rem; & p { margin: 0; }}{% endcss %}{% endif %}
+{% if page.url == "/books/" %}{% css %}
+	.book-information-container p:last-of-type {
+		border-top: var(--dotted-border);
+		margin-top: 0.75rem;
+	}
+{% endcss %}{% endif %}
 
 <ol reversed class="booklist book-container">
 {% for post in postslist | reverse %}
 		<li class="book booklist-item{% if post.url == url %} booklist-item-active{% endif %}">	
-			<a href="{{ post.url }}" class="postlist-link">
-				{% if post.data.featuredImg %}
+			<a href="{{ post.url }}">
+					<div class="booktitle-container"><h3>{{ post.data.title }}</h3></div>
 				<img 
 				src="{{ post.data.featuredImg }}"
 				alt="The cover of {{ post.data.title }}"
 				class="book-featuredImg"
 				/>
-				{% endif %}
-				{% if post.data.title %}
-				<span {% if page.url == "/" %}class="visually-hidden"{% endif %}>{{ post.data.title }}</span>
-				{% endif %}
 			</a>
-		{% if page.url == "/books/" %}
-			{% if post.data.excerpt %}
-				<p class="postlist-excerpt">
-					{{ post.data.excerpt | safe }}
-				</p>
-			{% endif %}
-			<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">
-			{{ post.date | readableDate("LLLL yyyy") }}
-			</time>
-		{% endif %}
+			<div class="book-information-container">
+				{% if page.url == "/books/" %}
+					{% if post.data.excerpt %}
+						<p class="postlist-excerpt">
+							{{ post.data.excerpt | safe }}
+						</p>
+					{% endif %}
+				{% endif %}
+				<p><time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></p>
+			</div>	
+			
 		</li>
 {% endfor %}
 </ol>

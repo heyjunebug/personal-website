@@ -1,11 +1,19 @@
 /* Books List */
+.booktitle-container {
+	padding-inline: 1rem;
+	padding-block: 0.75rem;
+	& h3 {
+		margin: 0;
+	}
+}
+
 .book-container {
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: wrap;
 	column-gap: 2%;
 	/* row-gap: 2rem; */
-	margin-top: 2.5rem;
+	/* margin-top: 2.5rem; */
 }
 
 /* .book {
@@ -15,6 +23,10 @@
 .booklist {
 	list-style: none;
 	padding: 0;
+}
+
+.booklist-item {
+	align-self: stretch;
 }
 
 .booklist-item:before {
@@ -31,28 +43,31 @@
 }
 
 ol li.book {
-	max-width: 32%;
+	border: 1.5px solid var(--color-gray-90);
+	flex: 0 1 49%;
+	margin-bottom: .75rem;
+}
+
+.book-information-container {
+	padding-inline: 1rem;
+	padding-block-start: .25rem;
+	padding-block-end: .75rem;
+	& p {
+		margin: 0;
+	}
 }
 
 li img {
-	aspect-ratio: 2 / 3;
+	border-top: 1.5px solid var(--color-gray-90);
+	border-bottom: 1.5px solid var(--color-gray-90);
+	aspect-ratio: 5 / 4;
 	object-fit: cover;
-	margin-top: 0.5rem;
-	/* margin-bottom: 0.5rem; */
-	min-height: 12rem;
-	/* width: 100%; */
-	flex-grow: 1;
+	min-height: 10em;
 }
 
 @media (max-width: 720px) {
-	ol li.book {
-		min-width: 49%;
-		& img {
-			aspect-ratio: 1 / 1;
-		}
-	}
-	.book-container {
-		gap: 2%;
+	ol li img {
+		aspect-ratio: 7 / 5;
 	}
 }
 
@@ -63,7 +78,7 @@ li img {
 	ol li.book {
 		min-width: 100%;
 		& img {
-			aspect-ratio: 3 / 2;
+			aspect-ratio: 16 / 9;
 		}
 	}
 }
