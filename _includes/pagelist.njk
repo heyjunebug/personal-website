@@ -1,0 +1,9 @@
+{% css %}{% include "public/css/post.css" %}{% endcss %}
+{% css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
+<ol reversed class="postlist">
+{% for post in postslist | reverse %}
+
+{% include 'partials/_postslist.njk' %}
+
+{% endfor %}
+</ol>

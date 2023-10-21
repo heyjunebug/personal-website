@@ -34,11 +34,6 @@ module.exports = function(eleventyConfig) {
 		return collection.getFilteredByGlob('content/notes/**/*.md');
 	});
 
-	// Returns notes collection
-	eleventyConfig.addCollection('phys', collection => {
-		return collection.getFilteredByGlob('content/notes/physiology/*.md');
-	});
-
 	eleventyConfig.addCollection("drafts", function (collectionApi) {
 		return collectionApi
 			.getAll()

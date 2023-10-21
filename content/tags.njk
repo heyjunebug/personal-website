@@ -13,18 +13,28 @@ pagination:
   addAllPagesToCollections: true
 layout: layouts/home.njk
 eleventyComputed:
-  title: Blog posts tagged “{{ tag }}”
+  title: Posts tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
 eleventyExcludeFromCollections: false
 ---
 
 <div class="heading-container inverted">
-<h2 class="mainContent">On <em>{{ tag | capitalize }}</em></h2>
+  <h1 class="mainContent">{{ tag | capitalize }}</h1>
 </div>
 
 {% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
+{% include "pagelist.njk" %}
 
-<div class="heading-container">
-<p>See <a href="/tags/">all tags</a>.</p>
-</div>
+  <details>
+    <summary class="dotted-background">See all tags</summary>
+    <div>
+      <ul class="tags-list--no-border">
+        {% for tag in collections.posts | getAllTags | filterTagList | sort(false, false, tags) %}
+          {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+          <li>
+            <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a> <sup>{{ collections[tag].length }}</sup>
+          </li>
+        {% endfor %}
+        </ul>
+    </div>
+  </details>

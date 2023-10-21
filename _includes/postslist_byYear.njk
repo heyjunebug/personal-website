@@ -47,44 +47,7 @@
 		{% endif %}
 	{% endif %}
 	
-	<div class="postlist-container">
-		<div class="postlist-heading">
-			<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-				<a href="{{ post.url }}" class="postlist-link">{% if post.data.featuredImg %}
-						<img 
-						src="{{ post.data.featuredImg }}"
-						alt="Collected work from {{ post.data.title }}"
-						class="portfolio-featuredImg"
-						/>
-					{% endif %}
-					{% if post.data.title %}<h3>{{ post.data.title }}</h3>{% else %}<code>{{ post.url }}</code>{% endif %}
-					
-				</a>
-			</li>
-		</div>
-		<div class="entry-container">
-		{% if post.data.excerpt %}
-			<p class="postlist-excerpt">
-				{{ post.data.excerpt | safe }}
-			</p>
-		{% endif %}
-		</div>
-		<div class="metadata-container">
-			<p class="metadata">
-				<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">
-				{{ post.date | readableDate("LLL dd yyyy") }}
-				</time>
-			</p>
-			{% if post.data.tags %}
-			<ul class="postlist-metadata">
-				{% for tag in post.data.tags | filterTagList | sort(false, false, tag) %}
-				{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-				<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}</li>
-				{% endfor %}
-			</ul>
-			{% endif %}
-		</div>
-	</div>
+	{% include 'partials/_postslist.njk' %}
 
 {% endfor %}
 </ol>

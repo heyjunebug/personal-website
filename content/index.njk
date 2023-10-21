@@ -13,12 +13,12 @@ eleventyExcludeFromCollections: false
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 
 <div class="heading-container inverted">
-	<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
+	<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 </div>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+{% include "pagelist.njk" %}
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
@@ -30,7 +30,7 @@ eleventyExcludeFromCollections: false
 {% set bookCount = collections.books | length %}
 {% set latestBooksCount = bookCount | min(numberOfLatestBooksToShow) %}
 
-<div class="heading-container inverted"><h2>Last {{ latestBooksCount }} Book{% if latestBooksCount != 1 %}s{% endif %}</h2></div>
+<div class="heading-container inverted"><h1>Last {{ latestBooksCount }} Book{% if latestBooksCount != 1 %}s{% endif %}</h1></div>
 
 {% set postslist = collections.books | head(-1 * numberOfLatestBooksToShow) %}
 {% set booklistCounter = bookCount %}

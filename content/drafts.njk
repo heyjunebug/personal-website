@@ -3,9 +3,11 @@ title: Drafts
 layout: layouts/home.njk
 eleventyExcludeFromCollections: false
 ---
+<div class="heading-container inverted">
 <h1>
   In Progress
 </h1>
+</div>
 
 {% set postslist = collections.drafts %}
-{% include "postslist.njk" %}
+{% include "pagelist.njk" %}
