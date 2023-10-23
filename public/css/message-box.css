@@ -5,7 +5,7 @@
 	display: block;
 	background-color: var(--color-message-box);
 	color: var(--color-gray-90);
-  border: var(--solid-border);
+  border: var(--solid-border-2x);
 	padding-top: 0.25rem;
   padding-bottom: 0.5rem; 
   padding-left: 1.25rem;
