@@ -4,24 +4,35 @@ title: Sitemap
 permalink: /sitemap/index.html
 eleventyExcludeFromCollections: true
 ---
+
 {# List every content page in the project #}
 
-<h1>Complete List of Pages</h1>
+<div class="heading-container inverted">
+	<h1>Complete List of Pages</h1>
+</div>
 
 <table>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>URL</th>
-      <th>Last Modified</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for entry in collections.all | reverse %}
-    <tr>
-      <td><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></td>
-      <td><lastmod><code>{{ entry.date | htmlDateString }}</code></lastmod></td>
-    </tr>
-    {% endfor %}
-  </tbody>
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>URL</th>
+			<th>Last Modified</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for entry in collections.all | reverse %}
+		<tr>
+			<td>
+				<a href="{{ entry.url }}"
+					><code>{{ entry.url }}</code></a
+				>
+			</td>
+			<td>
+				<lastmod
+					><code>{{ entry.date | htmlDateString }}</code></lastmod
+				>
+			</td>
+		</tr>
+		{% endfor %}
+	</tbody>
 </table>
