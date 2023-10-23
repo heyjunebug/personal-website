@@ -22,7 +22,8 @@
 	--syntax-tab-size: 2;
 
 	--dotted-border: 2px dotted var(--color-gray-20);
-	--solid-border: 1.5px solid var(--color-gray-90);
+	--solid-border: .5px solid var(--color-gray-90);
+	--solid-border-2x: 1px solid var(--color-gray-90);
 }
 
 @media (prefers-color-scheme: dark) {

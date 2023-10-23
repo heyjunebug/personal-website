@@ -1,0 +1,50 @@
+table {
+	width: 100%;
+}
+
+thead {
+	text-align: left;
+	text-transform: uppercase;
+	font-family: var(--font-family-monospace);
+	font-size: 0.75rem;
+	font-weight: 900;
+	& tr th {
+		padding: 0.125rem;
+	}
+}
+
+td, th {
+	vertical-align: top;
+	letter-spacing: 0.025em;
+}
+
+tbody {
+	font-family: var(--font-family-monospace);
+	font-size: 0.875rem;
+  counter-reset: rowNumber;
+}
+
+tbody tr::before {
+  display: table-cell;
+	font-size: 0.875em;
+	padding-block: 0.5em;
+	padding-inline: 0.25em;
+  counter-increment: rowNumber;
+  content: counter(rowNumber);
+}
+
+td {
+	padding: 0.25em;
+}
+
+thead tr, tr:nth-child(even) {
+	--dot-bg: var(--background-color);
+  --dot-color: var(--color-gray-20);
+  --dot-size: 1.5px;
+  --dot-space: 2px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+	z-index: 10;
+}

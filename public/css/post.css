@@ -211,7 +211,7 @@ article > ol:not(.postlist) {
 	gap: 1rem;
 	align-items: center;
 	justify-content: space-between;
-	border: var(--solid-border);
+	border: var(--solid-border-2x);
 	& p {
 		display: block;
 	}
@@ -253,6 +253,7 @@ ul li {
 		line-height: 1.625;
 }
 
+/* Prev and Next Links */
 .links-nextprev {
 	margin-block-start: 2rem;
 	display: flex;
@@ -265,15 +266,15 @@ ul li {
 	flex: 1 1 50%;
 	display: flex;
 	flex-direction: column;
-	border-top: 1.5px solid var(--color-gray-90);
-	border-bottom: 1.5px solid var(--color-gray-90);
-	border-left: 1.5px solid var(--color-gray-90);
+	border-top: var(--solid-border-2x);
+	border-bottom: var(--solid-border-2x);
+	border-left: var(--solid-border-2x);
 	padding-inline: 1rem;
 	padding-block: .75rem 1rem;
 }
 
 .link-container:last-child {
-	border-right: 1.5px solid var(--color-gray-90);
+	border-right: var(--solid-border-2x);
 }
 
 .link-container:hover {
@@ -306,6 +307,7 @@ ul li {
 	text-align: end;
 }
 
+/* Icons */
 .prev::before, .next::after {
 	width: 1.5rem;
 	height: 1.5rem;

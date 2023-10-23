@@ -1,21 +1,25 @@
-{% css %}{% include "public/css/bookgrid.css" %}{% endcss %} {% if page.url ==
-"/books/" %}{% css %}
+{% css %}
+	{% include "public/css/bookgrid.css" %}
+{% endcss %} 
+{% if page.url == "/books/" %}
+	{% css %}
 	.entry-container { border-top: var(--solid-border); }
-{% endcss %}{% endif %}
+	{% endcss %}
+{% endif %}
 
 <ol reversed class="booklist book-container">
 	{% for post in postslist | reverse %}
 		<li
 			class="book booklist-item{% if post.url == url %} booklist-item-active{% endif %}"
 		>
-			<div class="booktitle-container">
-				<a href="{{ post.url }}"><h3>{{ post.data.title }}</h3></a>
-			</div>
-			<img
-				src="{{ post.data.featuredImg }}"
-				alt="The cover of {{ post.data.title }}"
-				class="book-featuredImg"
-			/>
+		<div class="booktitle-container">
+			<a href="{{ post.url }}"><h3>{{ post.data.title }}</h3></a>
+		</div>
+		<img
+			src="{{ post.data.featuredImg }}"
+			alt="The cover of {{ post.data.title }}"
+			class="book-featuredImg"
+		/>
 		{% if page.url == "/books/" %} 
 		<div class="entry-container">
 			{% if post.data.excerpt %}
