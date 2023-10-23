@@ -1,5 +1,8 @@
 ---
 title: Pre-2013
+portfolioYear: 2012
+chapter: 0
+chapterTitle: Introduction
 date: 2020-10-10
 layout: layouts/post.njk
 ---
@@ -9,6 +12,7 @@ layout: layouts/post.njk
 <!-- excerpt -->
 
 <h2>Introduction</h2>
+
 <div class="accordion-container">
   <details>
     <summary>
