@@ -3,6 +3,26 @@
 
 {% set showSubject = true %}
 
+{% if showSubject %}
+{% set currentSubject = "" %}
+<div class="accordion-container">
+	<details>
+		<summary>Jump to a specific subject</summary>
+		<div>
+			<ol class="tags-list--no-border">
+			{% for post in postslist | reverse %}	
+			{% set postSubject = post.data.subject %}
+			{% if currentSubject != postSubject %}
+			{% set currentSubject = postSubject %}
+				<li><a href="#{{ postSubject }}">{{ postSubject }}</a></li>
+				{% endif %}
+			{% endfor %}
+			</ol>
+		</div>
+	</details>
+</div>
+{% endif %}
+
 <ol reversed class="postlist">
 {% set currentSubject = '' %}
 {% for post in postslist | reverse %}
@@ -12,7 +32,7 @@
 
 		{% if currentSubject != postSubject %}
 		{% set currentSubject = postSubject %}
-		<h3 class="postlist-category">{{ postSubject | capitalize }}</h3>
+		<h2 class="postlist-category" id="{{postSubject}}">{{ postSubject | capitalize }}</h2>
 		{% endif %}
 
 	{% endif %}
