@@ -3,7 +3,7 @@
     <div class="link-container">
       {% if previousPost %}
       <span class="prev">Older</span>
-      <a href="{{ previousPost.url }}">{{ previousPost.data.title | safe }}</a>
+      <a href="{{ previousPost.url }}" rel="prev">{{ previousPost.data.title | safe }}</a>
       {% else %}
       <span class="prev oops">The Start</span>
       <p>Sorry, there’s nothing left to show you.</p>
@@ -12,7 +12,7 @@
     <div class="link-container">
       {% if nextPost %}
       <span class="next">Newer</span>
-      <a href="{{ nextPost.url }}">{{ nextPost.data.title | safe }}</a>
+      <a href="{{ nextPost.url }}" rel="next">{{ nextPost.data.title | safe }}</a>
       {% else %}
       <span class="next oops">The End</span>
       <p>There’s nothing else to show you <em>yet</em>.</p>
