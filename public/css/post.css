@@ -364,7 +364,6 @@ sup {
 hr {
 	border: 0;
 	border-top: var(--dotted-border);
-	border-color: var(--text-color);
 	margin-top: 2em;
 	margin-bottom: 1rem;
 }
