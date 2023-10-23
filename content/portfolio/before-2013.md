@@ -1,5 +1,8 @@
 ---
 title: Pre-2013
+portfolioYear: 2012
+chapter: 0
+chapterTitle: Introduction
 date: 2020-10-10
 layout: layouts/post.njk
 ---
@@ -9,7 +12,32 @@ layout: layouts/post.njk
 <!-- excerpt -->
 
 <h2>Introduction</h2>
-<h3>School’s Out, Forever</h3>
+
+<div class="accordion-container">
+  <details>
+    <summary>
+    tl;dr: Years in Review
+    </summary>
+    <div>
+    <ul>
+      <li>improved my undergrad GPA from sub-2.0 freshman year to 3.2 by graduation</li>
+      <li>worked part-time while attending grad school full-time</li>
+      <li>designed my first printed publication</li>
+      <li>learned to teach rock climbing technique and safety</li>
+    </ul>
+    </div>
+  </details>
+  <details>
+    <summary>
+    Lesson Learned
+    </summary>
+    <div>
+    <p>Failure is an opportunity to grow.</p>
+    </div>
+  </details>
+</div>
+
+<h3 class="heading-container inverted">School’s Out, Forever</h3>
 
 I failed O-Chem twice. I was an arrogant teenager, and thought I was smart enough to get away with poor attendance and even poorer study habits.
 
