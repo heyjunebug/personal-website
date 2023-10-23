@@ -41,7 +41,7 @@ details div {
 	border-inline: var(--solid-border-2x);
 	border-block-end: var(--solid-border-2x);
 	padding-inline-start: 2.75rem;
-	padding-inline-end: 0.5rem;
+	padding-inline-end: 2.25rem;
 	padding-block: 1.5rem 2rem;
 }
 
