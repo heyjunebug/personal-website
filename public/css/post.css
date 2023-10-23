@@ -1,6 +1,5 @@
 article img {
 	height: 100%;
-	/* object-fit: initial; */
 }
 
 /* Portfolio Images: Carousel */
@@ -129,13 +128,19 @@ article > p:first-child {
 	font-size: 1.25rem;
 	font-style: italic;
 	line-height: 1.4;
-	border-bottom: var(--dotted-border);
-	padding-block-end: 1rem;
+}
+
+article > p:nth-child(2) {
+	border-top: var(--dotted-border);
+	padding-block-start: 1rem;
+} 
+
+article > p:nth-child(2):has(picture) {
+	border: 0;
 }
 
 hr {
 	border-bottom: var(--dotted-border);
-	border-color: var(--color-gray-90);
 }
 
 article > p:not(:first-child) {
@@ -340,7 +345,6 @@ ul li {
 			display: inline-flex;
 			justify-content: center;
 			align-items: center;
-			/* font-family: var(--font-family-monospace); */
 		}
 		& p {
 			margin: 0;
@@ -394,30 +398,3 @@ div.poem p:first-line {
 
 /* WARNING: Here there be dragons! Experimental styles */
 
-/* Highlighting */
-/* Previous implementation, but commented out because I may not
-	 end up using <mark> anywhere in the site. */
-
-/* mark {
-	background: var(--text-color-link);
-	opacity: 0.75;
-	padding-bottom: 0.125em;
-	padding-left: 0.125em;
-	padding-right: 0.125em;
-	z-index: 0;
-	&:hover {
-		background: var(--text-color-link-active);
-		color: var(--background-color);
-	}
-} */
-
-/* Excerpt styling */
-/* Not implemented properly yet because it applies styling to
-	 the posts on the index page posts as well. */
-
-/* .right > p:first-of-type {
-	font-style: italic;
-	font-size: 1.675rem;
-	line-height: 1.325;
-	letter-spacing: -0.0125;
-} */
