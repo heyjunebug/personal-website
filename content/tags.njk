@@ -15,7 +15,7 @@ layout: layouts/home.njk
 eleventyComputed:
   title: Posts tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 ---
 
 <div class="heading-container inverted">

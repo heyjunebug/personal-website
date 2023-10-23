@@ -9,7 +9,7 @@ featuredImg: "/img/books/how-to-write-a-sentence-cover.webp"
 Stanley Fish’s book dives into how sentences communicate. The styles examined invite us to consider the construction of meaning in our own life narratives.
 <!-- excerpt -->
 
-{% image "img/how-to-write-a-sentence-cover.jpg", "The cover of How to Write a Sentence in front of many open books." %}
+{% image "../img/how-to-write-a-sentence-cover.jpg", "The cover of How to Write a Sentence in front of many open books." %}
 
 Stanley Fish’s “How to Write a Sentence and How to Read One” is an in-depth examination of how sentences convey meaning through form, style, and content. He focuses primarily on “how” a sentences conveys meaning (form and style) and “what” meanings sentences convey (content).
 

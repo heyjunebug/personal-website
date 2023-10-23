@@ -1,0 +1,16 @@
+---
+title: Blog
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Blog
+  order: 3
+eleventyExcludeFromCollections: true
+---
+<div class="heading-container inverted">
+<h1>
+  Archive
+</h1>
+</div>
+
+{% set postslist = collections.posts %}
+{% include "postslist_byYear.njk" %}

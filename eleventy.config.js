@@ -26,7 +26,7 @@ module.exports = function(eleventyConfig) {
 
 	// Returns book reviews
 	eleventyConfig.addCollection('books', collection => {
-		return collection.getFilteredByGlob('content/books/*.md');
+		return collection.getFilteredByGlob('content/books/**/*.md');
 	});
 
 	// Returns notes collection

@@ -12,7 +12,7 @@ featuredImg: "/img/books/hello-world-cover.webp"
 
 <!-- excerpt -->
 
-{% image "img/hello-world-cover.jpg", "The cover of Hello World in front of many lines of numbers." %}
+{% image "../img/hello-world-cover.jpg", "The cover of Hello World in front of many lines of numbers." %}
 
 ## Highlights
 

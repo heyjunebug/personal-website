@@ -1,16 +1,17 @@
 ---
-title: Blog
+title: Books
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Blog
-  order: 3
+  key: Books
+  order: 4
 eleventyExcludeFromCollections: false
+permalink: /books/index.html
 ---
 <div class="heading-container inverted">
 <h1>
-  Archive
+  Library
 </h1>
 </div>
 
-{% set postslist = collections.posts %}
-{% include "postslist_byYear.njk" %}
+{% set postslist = collections.books %}
+{% include "booksgrid.njk" %}

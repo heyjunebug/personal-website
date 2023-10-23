@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Portfolio
 date: 2023-09-29
 draft: true
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 ---
 
 <article>
@@ -21,6 +21,6 @@ eleventyExcludeFromCollections: false
   </div>  
 </article>
 
-<h3 class="heading-container inverted">Pages</h3>
+<h2 class="heading-container inverted">Pages</h2>
 {% set postslist = collections.portfolio %}
 {% include "pagelist.njk" %}

@@ -12,7 +12,7 @@ hasHighlights: true
 This book left a lasting impression, and months later, I still think about it. It sparked a new and persistent pastime: looking up the etymology of words.
 <!-- excerpt -->
 
-{% image "img/babel-cover.jpg", "The cover of Babel set against a photograph of Oxford University." %}
+{% image "../img/babel-cover.jpg", "The cover of Babel set against a photograph of Oxford University." %}
 
 I have composed many sentences in my mind about this book since finishing it in late January/early February (based on the dates logged with my highlights on my Kobo Libra H2O). It’s rare that a book leaves an impression deep enough that I still think about it seven months later—*very* rare. This is my first attempt to make those imaginary sentences real... to translate the vague impressions left by the experience of losing myself the alternate Oxford University of “Babel” into something more tangible.  
 
