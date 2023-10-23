@@ -1,34 +1,48 @@
-{% css %}{% include "public/css/bookgrid.css" %}{% endcss %}
-{% if page.url == "/books/" %}{% css %}
-	.book-information-container p:last-of-type {
-		border-top: var(--dotted-border);
-		margin-top: 0.75rem;
-	}
+{% css %}{% include "public/css/bookgrid.css" %}{% endcss %} {% if page.url ==
+"/books/" %}{% css %}
+	.entry-container { border-top: var(--solid-border); }
 {% endcss %}{% endif %}
 
 <ol reversed class="booklist book-container">
-{% for post in postslist | reverse %}
-		<li class="book booklist-item{% if post.url == url %} booklist-item-active{% endif %}">	
-			<a href="{{ post.url }}">
-					<div class="booktitle-container"><h3>{{ post.data.title }}</h3></div>
-				<img 
+	{% for post in postslist | reverse %}
+		<li
+			class="book booklist-item{% if post.url == url %} booklist-item-active{% endif %}"
+		>
+			<div class="booktitle-container">
+				<a href="{{ post.url }}"><h3>{{ post.data.title }}</h3></a>
+			</div>
+			<img
 				src="{{ post.data.featuredImg }}"
 				alt="The cover of {{ post.data.title }}"
 				class="book-featuredImg"
-				/>
-			</a>
-			<div class="book-information-container">
-				{% if page.url == "/books/" %}
-					{% if post.data.excerpt %}
-						<p class="postlist-excerpt">
-							{{ post.data.excerpt | safe }}
-						</p>
-					{% endif %}
+			/>
+		{% if page.url == "/books/" %} 
+		<div class="entry-container">
+			{% if post.data.excerpt %}
+				<p class="postlist-excerpt">
+					{{ post.data.excerpt | safe }}
+				</p>
+			{% endif %} 
+			{% if post.data.hasHighlights %}
+				<a href="{{ post.url }}/#highlights" class="deeper-icon">Look at the highlights</a>.
+			{% endif %}
+		</div>
+		{% endif %}
+		<div class="metadata-container">
+			<p class="metadata">
+				{% if post.data.draft %}
+				Reading
+				{% else %}
+				Finished
 				{% endif %}
-				<p><time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></p>
-			</div>	
-			
-		</li>
-{% endfor %}
+			</p>
+			<p class="metadata">
+				<time
+					class="postlist-date"
+					datetime="{{ post.date | htmlDateString }}"
+					>{{ post.date | readableDate("LLLL yyyy") }}</time>
+			</p>
+		</div>
+	</li>
+	{% endfor %}
 </ol>
-

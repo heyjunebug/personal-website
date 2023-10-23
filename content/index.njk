@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: false
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<div class="heading-container">
+<div class="heading-container dotted-background">
 	<p class="read-more">Read #1 – #{{ morePosts }} in <a href="/blog/">the archive</a>.</p>
 </div>
 {% endif %}
@@ -38,7 +38,7 @@ eleventyExcludeFromCollections: false
 
 {% set moreBooks = bookCount - numberOfLatestBooksToShow %}
 {% if moreBooks > 0 %}
-<div class="heading-container">
+<div class="heading-container dotted-background">
 	<p class="read-moreBooks">Read about {{ moreBooks }} more book{% if moreBooks != 1 %}s{% endif %} in <a href="/books/">the library</a>.</p>
 </div>
 {% endif %}
