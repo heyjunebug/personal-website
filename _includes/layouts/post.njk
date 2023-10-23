@@ -18,6 +18,20 @@ layout: layouts/base.njk
 <h1>{{ title | safe }}</h1>
 </div>
 
+{% if featuredImg %}
+	{% css %}
+		.featuredImg { 
+			border: var(--solid-border-2x);
+			margin-block-end: 0.5rem;
+		 }
+	{% endcss %}
+	<img 
+	src="{{ featuredImg }}"
+	alt="The cover of {{ title }}"
+	class="featuredImg"
+	/>
+{% endif %}
+
 <div class="post-metadata-container">
 	<time class="postlist-date" datetime="{{ page.date | htmlDateString }}">
 		{{ page.date | readableDate("LLL dd yyyy") }}
