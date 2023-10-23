@@ -36,7 +36,7 @@ ol li.book {
 	display: flex;
 	flex-direction: column;
 	flex: 0 1 49%;
-	margin-bottom: .75rem;
+	margin-block-end: .75rem;
 }
 
 li img {

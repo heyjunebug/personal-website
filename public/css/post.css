@@ -23,8 +23,7 @@ article img {
 		& picture img {
 		max-height: 36rem;
 		max-width: 85%;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
+		padding-block: 1rem;
 	}
 }
 
@@ -48,11 +47,11 @@ details div {
 }
 
 details div > * + * {
-	margin-top: 1.5em;
+	margin-block-start: 1.5em;
 }
 
 details + details {
-	margin-top: .75rem;
+	margin-block-start: .75rem;
 }
 
 summary {
@@ -65,10 +64,11 @@ summary::-webkit-details-marker {
 
 summary {
 	border: 1.5px solid var(--color-gray-90);
-	padding: .75rem 1rem;
+	padding-block: .75rem;
+	padding-inline-end: 1rem;
 	cursor: pointer;
 	position: relative;
-	padding-left: calc(1.75rem + .5rem + .5rem);
+	padding-inline-start: calc(1.75rem + .5rem + .5rem);
 	font-family: var(--font-family-monospace);
 	font-size: 0.875rem;
 }
@@ -114,10 +114,10 @@ summary:hover {
 .rounded picture img {
 	border-radius: 0.5rem;
 	border: 1px solid var(--color-gray-90);
-	margin-top: 0.5rem;
+	margin-block-start: 0.5rem;
 }
 .rounded {
-	margin-bottom: 1rem;
+	margin-block-end: 1rem;
 }
 
 /* Margins */
@@ -218,7 +218,7 @@ article > ol:not(.postlist) {
 
 p:first-of-type
 :not(.read-more, .read-moreBooks, .date) {
-	margin-top: 0;
+	margin-block-start: 0;
 }
 
 article > blockquote {
@@ -226,8 +226,7 @@ article > blockquote {
 	border-left: var(--dotted-border);
 	border-color: var(--text-color-link);
   margin-inline: auto;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-block: 0;
   padding-left: 1.5rem;
 	line-height: 1.625;
 	position: relative;
@@ -265,15 +264,15 @@ ul li {
 	flex: 1 1 50%;
 	display: flex;
 	flex-direction: column;
-	border-top: var(--solid-border-2x);
-	border-bottom: var(--solid-border-2x);
-	border-left: var(--solid-border-2x);
+	border-block-start: var(--solid-border-2x);
+	border-block-end: var(--solid-border-2x);
+	border-inline-start: var(--solid-border-2x);
 	padding-inline: 1rem;
 	padding-block: .75rem 1rem;
 }
 
 .link-container:last-child {
-	border-right: var(--solid-border-2x);
+	border-inline-end: var(--solid-border-2x);
 }
 
 .link-container:hover {
@@ -368,9 +367,9 @@ sup {
 
 hr {
 	border: 0;
-	border-top: var(--dotted-border);
-	margin-top: 2em;
-	margin-bottom: 1rem;
+	border-block-start: var(--dotted-border);
+	margin-block-start: 2em;
+	margin-block-end: 1rem;
 }
 
 .footnotes-sep:before {
