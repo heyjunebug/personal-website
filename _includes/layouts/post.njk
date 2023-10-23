@@ -7,16 +7,16 @@ layout: layouts/base.njk
 {% css %}{% include "public/css/post.css" %}{% endcss %}
 {% css %}{% include "public/css/message-box.css" %}{% endcss %}
 
-<div class="heading-container inverted">
-<h1>{{ title | safe }}</h1>
-</div>
-
 {% if draft == true %}
 <div class="message-box">
 	<h3>Attention!</h3>
-	<p><em>This is a draft.</em> That means this page doesn’t meet my minimum requirements for “done, but not perfect.” Expect it to undergo substantial changes before this alert is removed!</p>
+	<p><em>This is a draft.</em> That means this page isn’t even “done, but not perfect.” Expect it to undergo substantial changes before this alert is removed!</p>
 </div>
 {% endif %}
+
+<div class="heading-container inverted">
+<h1>{{ title | safe }}</h1>
+</div>
 
 <div class="post-metadata-container">
 	<time class="postlist-date" datetime="{{ page.date | htmlDateString }}">
