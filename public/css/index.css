@@ -227,17 +227,6 @@ main {
 	}
 }
 
-.heading-container {
-	--dot-bg: var(--background-color);
-  --dot-color: var(--color-gray-20);
-  --dot-size: 1.5px;
-  --dot-space: 2px;
-	background:
-		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		var(--dot-color);
-}
-
 .dotted-background {
 	--dot-bg: var(--background-color);
   --dot-color: var(--color-gray-20);
@@ -264,6 +253,22 @@ main {
 	padding-inline: 1rem;
 	padding-block-start: 0.5rem;
 	padding-block-end: 0.75rem;
+	flex: 1;
+}
+
+.deeper-icon {
+	display: inline-block;
+	&::before {
+		content: "☞";
+		width: 1.625rem;
+		height: 1.325rem;
+		background-color: var(--color-gray-90);
+		color: var(--background-color);
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		margin-inline-end: .5rem;
+	}
 }
 
 /* Footer */
@@ -334,6 +339,9 @@ footer {
 	padding-block: 0.75rem;
 	max-width: 85%;
 	border-inline-start: var(--solid-border);
+}
+.postlist-excerpt {
+	margin: 0;
 }
 .postlist-date,
 .postlist-item:before,

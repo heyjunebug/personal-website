@@ -27,6 +27,8 @@
 
 .booklist-item {
 	align-self: stretch;
+	display: flex;
+	flex-direction: column;
 }
 
 .booklist-item:before {
@@ -44,22 +46,24 @@
 
 ol li.book {
 	border: 1.5px solid var(--color-gray-90);
+	display: flex;
+	flex-direction: column;
 	flex: 0 1 49%;
 	margin-bottom: .75rem;
 }
 
-.book-information-container {
+/* .book-information-container {
 	padding-inline: 1rem;
 	padding-block-start: .25rem;
 	padding-block-end: .75rem;
 	& p {
 		margin: 0;
 	}
-}
+} */
 
 li img {
 	border-top: 1.5px solid var(--color-gray-90);
-	border-bottom: 1.5px solid var(--color-gray-90);
+	/* border-bottom: 1.5px solid var(--color-gray-90); */
 	aspect-ratio: 5 / 4;
 	object-fit: cover;
 	min-height: 10em;
