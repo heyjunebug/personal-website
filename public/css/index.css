@@ -229,6 +229,8 @@ main {
 .post-container {
 	border: var(--solid-border);
 	margin-block-end: 0.75rem;
+	display: flex;
+	flex-direction: column;
 }
 .post-heading {
 	border: var(--solid-border);
@@ -316,6 +318,7 @@ ul.postlist-metadata {
 }
 .portfolio-featuredImg {
 	border: var(--solid-border);
+	object-fit: cover;
 }
 
 /* Home page class: styling text+link to archive */
