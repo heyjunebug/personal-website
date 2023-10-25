@@ -2,7 +2,12 @@
   header,
   footer,
   nav,
-  .links-nextprev {
+  img, 
+  .links-nextprev,
+  .message-box {
     display: none;
+  }
+  section p {
+    break-inside: avoid;
   }
 }
