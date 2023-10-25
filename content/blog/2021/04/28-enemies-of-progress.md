@@ -5,9 +5,11 @@ tags:
   - challenges
   - how to
 ---
-Facing perceived failures has been a lifelong struggle.
+Facing perceived failures has been a lifelong struggle. From hiding my report cards to throwing out credit card bills unopened, I have classically failed to look my perceived failures in the eye. 
 
-From hiding my report cards to throwing out credit card bills unopened, I have classically failed to look my perceived failures in the eye. Instead, I chose to adopt the mantra, “Just keep running.” “If I don’t acknowledge it, it must not exist.”
+<!-- excerpt -->
+
+Instead, I chose to adopt the mantra, “Just keep running.” “If I don’t acknowledge it, it must not exist.”
 
 It is not an easy road back to a clean slate.
 
