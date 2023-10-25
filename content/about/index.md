@@ -18,10 +18,11 @@ I am asleep by 9 p.m. if all goes according to plan.^[All usually does go accord
 
 ## Values that attract me
 Above nearly all else, the following qualities in friends, family, companies, and products alike matter most to me:
+* **coherence** (living and working in alignment with your values)
 * **responsibility** (doing what you say, when you say)
 * **accountability** (owning the mistakes you will inevitably make)
 * **respect for boundaries** (your own and others’)
-* **striving to be indistractible** (investing willpower into focus)
+* **discipline/indistractibility** (investing willpower into focus and action)
 * **awareness** (being as present as you can in the moment)
 
 ## What I invest in
