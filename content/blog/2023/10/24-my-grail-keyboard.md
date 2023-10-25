@@ -17,7 +17,7 @@ The 50wpm is typing things I know—words and simple punctuation.^[I have to pul
 
 My pinkies, for example, believe they are responsible for correcting mistakes (with backspace), but now it's my thumb--specifically, my left thumb--that's supposed to be responsible. If I didn't miss as often as I do now, that might not bother me, but trying to convince my fingers to take on new responsibilities or let go of old ones has been as futile as Sisyphus pushing his boulder up the mountain. 
 
-To make matters worse, any assurances I've offered my fingers that they don't need to deviate from what the biomechanically advantageous linear range of motion has fallen on deaf ears. I find myself between keys as often as I find myself on them, and that's hardly an exaggeration.
+To make matters worse, the assurances I've offered my fingers that they don't need to deviate from their biomechanically advantageous linear ranges of motion have fallen on deaf ears. I find myself *between* keys as often as I find myself on them, and that's hardly an exaggeration.
 
 The Moonlander is not my only ortholinear keyboard, but it's been a long, long while since I've used my other one. I'd forgotten that ortholinear layouts punish you for learning to use the wrong finger for certain keys. (I've been absolutely hopeless when it comes to the bottow row for my left hand. I may as well eliminate Z, X, C, V, and B. Let's never copy and paste ever again, shall we?)
 
