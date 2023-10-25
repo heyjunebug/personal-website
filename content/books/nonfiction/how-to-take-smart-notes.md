@@ -12,8 +12,6 @@ An in-depth exploration of how to take notes that <em>actively</em> build and ex
 
 <!-- excerpt -->
 
-{% image "../img/how-to-take-smart-notes-cover.jpg", "The cover of How to Take Smart Notes in front of a library book catalog." %}
-
 ## Highlights
 
 #### Introduction

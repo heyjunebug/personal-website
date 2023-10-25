@@ -10,7 +10,7 @@ draft: false
 This book landed in our laps at exactly the right time. My husband and I took turns reading the short afterlives to each other during a weekend getaway.
 <!-- excerpt -->
 
-{% image "../img/sum-cover.jpg", "The cover of Sum set against an image of a nebula." %}
+<section class="two-column">
 
 I first learned about this book’s existence from [Derek Sivers](https://sive.rs/book/Sum). I didn’t pick it up though—my “to be read” list will always require more reading time than I will ever have.
 
@@ -28,3 +28,5 @@ I was hooked.
 I started reading it aloud to Rob. Together, we read at least 30 of the 40 stories that weekend, and finished the rest at home. The short-form stories were perfect for reading to each other: Most of the stories took just about five minutes to read to each other, and they were so interesting, we had plenty to talk about after.
 
 In “Sum,” we see just what it might mean that God created humankind in His/Her own image, what that means for the afterlife, and what that means for how we live our lives. This is one of those rare books that benefits from a being read again... and again... and again.
+
+</section>

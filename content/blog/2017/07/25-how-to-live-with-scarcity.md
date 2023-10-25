@@ -8,6 +8,9 @@ tags:
 ---
 How to cope with imperfection and what it means to have enough and be enough...
 <!-- excerpt -->
+
+<section class="two-column">
+
 ### Being Human
 Lately, feeling like I’m missing a sense of fulfillment and meaning in my work, I’ve turned to the self-help section of my libraries and bookstores. The most popular self-help books share a common message: **all of us are human—the extraordinary visionaries, the ordinary, “average” individuals we encounter in everyday life, and everyone in between—and we are all capable of great things**. Many of the books on career change or skill development focus on debunking the notion that success and excellence in a field results from a “divine” gift or talent. It results, these books contend, from deliberate and consistent practice.
 
@@ -25,6 +28,8 @@ In the morning: “No matter what gets done and how much is left undone, I am en
 In the evening: “I am imperfect and vulnerable and sometimes afraid, but that doesn’t change the truth that I am also brave and worthy of love and belonging.”
 
 I find it interesting that even the mention of vulnerability and imperfection makes me uncomfortable. Brown suggests vulnerability is the remedy. I hope she’s right.
+
+</section>
 
 ### Changelog
 **2021-03-14**: Added headings.
