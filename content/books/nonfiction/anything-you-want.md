@@ -12,8 +12,6 @@ I just finished “Anything You Want” by Derek Sivers. It took just a couple o
 
 <!-- excerpt -->
 
-{% image "img/anything-you-want-cover.jpg", "The cover of Anything You Want set against colorful pigments, maybe from chalk pastels." %}
-
 It’s a short book that wastes no words. It’s also a delightful book that challenges conventional business thinking and practices. And, for me, it’s a much-needed book that feels like a lighthouse in my stormy mind.^[The only persistent thought—it feels like a subconscious mantra—is that I don’t want to do a *lot* of work, but I do want to do *good* work that gives me pleasure.] 
 
 The book challenges me to consider how I want to help people. What can I do that will help solve real people’s real problems?
