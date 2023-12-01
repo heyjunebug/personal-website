@@ -5,10 +5,6 @@
 			"url": "/about/"
 		},
     {
-			"text": "Now",
-			"url": "/portfolio/now/"
-		},
-    {
 			"text": "Email",
 			"url": "mailto:june@fascianistas.com"
 		},
@@ -17,16 +13,16 @@
 			"url": "/blog/feed.xml"
 		},
 		{
-			"text": "Colophon",
-			"url": "/colophon/"
-		},
-		{
 			"text": "Source",
 			"url": "https://github.com/heyjunebug/personal-website"
 		}
 	],
   "indexItems": [
-		{
+    {
+			"text": "Tags",
+			"url": "/tags/"
+		},
+				{
 			"text": "Posts",
 			"url": "/blog/"
 		},
@@ -34,19 +30,7 @@
 			"text": "Books",
 			"url": "/books/"
 		},
-    {
-			"text": "Notes",
-			"url": "/notes/"
-		},
-    {
-			"text": "Tags",
-			"url": "/tags/"
-		},
-    {
-			"text": "Drafts",
-			"url": "/drafts/"
-		},
-    {
+		{
 			"text": "Sitemap",
 			"url": "/sitemap/"
 		}
