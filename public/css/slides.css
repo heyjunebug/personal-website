@@ -1,0 +1,155 @@
+#skip {
+  padding-block-start: 0;
+  padding-block-end: 2rem;
+  padding-inline: 1rem;
+  & ol {
+    padding-inline-start: 0;
+  }
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  width: 100%;
+  padding: 0;
+  margin-block: 2rem;
+  margin-inline: 0;
+}
+
+li.header {
+  margin-block-start: 10rem;
+  margin-block-end: 2rem;
+}
+
+li > h2, 
+li > h3, 
+li > h4 {
+  font-family: var(--font-family-didone);
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  text-wrap: balance;
+  line-height: 1.2;
+}
+
+li > h2 {
+  font-size: 4rem;
+}
+
+li > h3 {
+  font-size: 2rem;
+  font-style: normal;
+}
+
+li > h4 {
+  font-size: 1.5rem;
+}
+
+li > p {
+  font-family: var(--font-family-didone);
+  font-size: 1.25rem;
+  line-height: 1.375;
+  text-wrap: pretty;
+}
+
+.slide, 
+.stacked-slide {
+  zoom: 1;
+}
+
+.slide {
+  display: flex;
+  gap: 1rem;
+  & h2, h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  & .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  & .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  & .profile {
+    max-block-size: 10rem;
+    max-inline-size: 10rem;
+  }
+  & .featured-img {
+    inline-size: 300vw;
+  }
+  & .smaller-featured-img {
+    inline-size: 150vw;
+  }
+}
+
+li > h3 {
+  margin-block-end: 4rem;
+}
+
+.stacked-slide {
+  text-align: center;
+  & .crest {
+    inline-size: 4rem;
+    block-size: 4rem;
+    margin-inline: auto;
+    margin-block: 2rem;
+  }
+}
+
+li > div > picture > img,
+li > picture > img {
+  filter: unset;
+	-webkit-filter: unset;
+}
+
+@media (max-width: 720px) {
+	.slide {
+    display: block;
+    margin: auto;
+    & h2, h3 {
+      display: block;
+    }
+    & .bottom {
+      display: block;
+    }
+    & .top {
+      display: block;
+    }
+    & .profile {
+      max-block-size: 10rem;
+      max-inline-size: 10rem;
+    }
+    & .featured-img {
+      inline-size: 95%;
+    }
+    & .smaller-featured-img {
+      inline-size: 75%;
+      margin-inline-end: 0;
+      margin-inline-start: auto;
+    }
+  }
+  .stacked-slide {
+    text-align: left;
+    & .crest {
+      margin-inline: 0;
+    }
+  }
+  li > figure > img {
+    inline-size: 95%;
+  }
+  li > h2 {
+    font-size: 3rem;
+  }
+  li > h3 {
+    font-size: 1.75rem;
+    font-style: normal;
+  }
+}
