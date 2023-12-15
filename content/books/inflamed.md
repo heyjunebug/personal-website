@@ -9,7 +9,7 @@ featuredImg: "/img/books/inflamed-cover.webp"
 In what may be an example of irony, this book has been making me feel “inflamed.” When I think about the mark left by the book thus far, I can’t help but feel critical.
 <!-- excerpt -->
 
-<section class="two-column">
+<section>
 
 I feel critical of its attempt to be both an impassioned cry to take notice of the presence of colonialism in places we believe are unbiased and a layman’s scientific primer on inflammation. While I am usually one of the first to advocate for complexity, this particular marriage of science and social justice isn’t working for me.
 

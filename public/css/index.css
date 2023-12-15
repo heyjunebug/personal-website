@@ -272,7 +272,7 @@ p.metadata {
 }
 .postlist-item:before {
 	display: inline-block;
-	font-family: var(--font-family-serif);
+	font-family: var(--font-family-geo);
 	pointer-events: none;
 	content: "#" counter(start-from, decimal-leading-zero) "\A";
 	white-space: pre-wrap;
@@ -324,7 +324,7 @@ ul.postlist-metadata {
 
 /* Home page class: styling text+link to archive */
 .read-more {
-	font-family: var(--font-family-sans);
+	font-family: var(--font-family-serif);
 	font-weight: 300;
 	margin-block-start: 1.5rem;
 }

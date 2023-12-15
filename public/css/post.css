@@ -156,8 +156,9 @@ article > #highlights {
 	background: var(--color-gray-90);
 }
 
-article > .highlights {
-	/* max-width: 48ch; */
+article > .highlights,
+article > section {
+	max-width: 48ch;
 	margin-inline: auto;
 	& > h3 {
 		border: var(--solid-border-2x);
@@ -172,7 +173,7 @@ article > .highlights {
 
 .two-column, .highlights {
 	margin-block-end: 1lh;
-	columns: 2;
+	/* columns: 2; */
 	& h3 {
 		margin-block: 0;
 		&:not(:first-of-type) {

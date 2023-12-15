@@ -10,7 +10,7 @@ draft: false
 This book landed in our laps at exactly the right time. My husband and I took turns reading the short afterlives to each other during a weekend getaway.
 <!-- excerpt -->
 
-<section class="two-column">
+<section>
 
 I first learned about this book’s existence from [Derek Sivers](https://sive.rs/book/Sum). I didn’t pick it up though—my “to be read” list will always require more reading time than I will ever have.
 

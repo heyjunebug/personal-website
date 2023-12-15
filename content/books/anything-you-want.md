@@ -21,21 +21,26 @@ I wrote more about what I've been thinking in [this post](/blog/2023/10/28-helpi
 ## Highlights
 <div class="highlights">
 
+<div class="highlights">
+
 ### What’s your compass?
 
 * You need to know your personal philosophy of what makes you happy and what’s worth doing.
+
 * You can’t please everyone, so proudly exclude people.
 
 ### Make a dream come true
 
 * The key point is that I wasn’t trying to make a big business. I was just daydreaming about how one little thing would look in a perfect world.
+
 * When you make a business, you get to make a little universe where you control all the laws. This is your utopia.
+
 * When you make it a dream come true for yourself, it’ll be a dream come true for someone else, too.
 
 ### This ain’t no revolution
 
 * People think a revolution needs to involve loud provocations, fists in the air, and bloodshed. But if you think true love looks like Romeo and Juliet, you’ll overlook a great relationship that grows slowly. If you think your life’s purpose needs to hit you like a lightning bolt, you’ll overlook the little day-to-day things that fascinate you. If you think revolution needs to feel like war, you’ll overlook the importance of simply serving people better.
-  When you’re onto something great, it won’t feel like revolution. It’ll feel like uncommon sense.
+  <p>When you’re onto something great, it won’t feel like revolution. It’ll feel like uncommon sense.</p>
 
 ### If it’s not a hit, switch
 
@@ -64,7 +69,7 @@ I wrote more about what I've been thinking in [this post](/blog/2023/10/28-helpi
 ### How do you grade yourself?
 
 * How do you grade yourself?
-  It’s important to know in advance, to make sure you’re staying focused on what’s honestly important to you, instead of doing what others think you should.
+  <p>It’s important to know in advance, to make sure you’re staying focused on what’s honestly important to you, instead of doing what others think you should.</p>
 
 ### Care about your customers more than about yourself
 
