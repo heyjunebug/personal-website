@@ -10,6 +10,8 @@ featuredImg: "/img/books/hello-world-cover.webp"
 
 <em>Currently reading this!</em> Engaging from the start, I read nearly a fifth of it in one sitting. A “just in time” read, since I’ve been thinking about digital footprints.
 
+Ultimately, we must maintain a certain distance in assessing the impact of algorithms in human lives. We have a tendency to overreact when an algorithm makes a mistake and a tendency to underappreciate when an algorithm works well.
+
 <!-- excerpt -->
 
 {% image "img/hello-world-cover.jpg", "The cover of Hello World in front of many lines of numbers." %}
