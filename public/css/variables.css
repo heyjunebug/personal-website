@@ -1,9 +1,9 @@
 /* Default typography: h/t Modern Font Stacks */
 :root {
-	--font-family-serif: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
-	--font-family-sans: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+	--font-family-serif: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+	--font-family-sans: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 	--font-family-geo: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-	--font-family-monospace: Menlo, Consolas, 'Source Code Pro', 'Cascadia Code', 'DejaVu Sans Mono', ui-monospace, monospace;
+	--font-family-monospace: Consolas, Menlo, 'Source Code Pro', 'Cascadia Code', 'DejaVu Sans Mono', ui-monospace, monospace;
 	--font-family-didone: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
 }
 
